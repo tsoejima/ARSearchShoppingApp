@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF92A73F253DC392005DCCBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A73E253DC392005DCCBB /* AppDelegate.swift */; };
+		DF92A741253DC392005DCCBB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF92A740253DC392005DCCBB /* art.scnassets */; };
+		DF92A743253DC392005DCCBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A742253DC392005DCCBB /* ViewController.swift */; };
+		DF92A746253DC392005DCCBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF92A744253DC392005DCCBB /* Main.storyboard */; };
+		DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF92A747253DC392005DCCBB /* Assets.xcassets */; };
+		DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF92A749253DC392005DCCBB /* LaunchScreen.storyboard */; };
+		DF92A756253DC392005DCCBB /* ARSearchShoppingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A755253DC392005DCCBB /* ARSearchShoppingAppTests.swift */; };
+		DF92A761253DC392005DCCBB /* ARSearchShoppingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A760253DC392005DCCBB /* ARSearchShoppingAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF92A752253DC392005DCCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF92A733253DC392005DCCBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF92A73A253DC392005DCCBB;
+			remoteInfo = ARSearchShoppingApp;
+		};
+		DF92A75D253DC392005DCCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF92A733253DC392005DCCBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF92A73A253DC392005DCCBB;
+			remoteInfo = ARSearchShoppingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF92A73B253DC392005DCCBB /* ARSearchShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSearchShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF92A73E253DC392005DCCBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF92A740253DC392005DCCBB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DF92A742253DC392005DCCBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF92A745253DC392005DCCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF92A747253DC392005DCCBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF92A74A253DC392005DCCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF92A74C253DC392005DCCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF92A751253DC392005DCCBB /* ARSearchShoppingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSearchShoppingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF92A755253DC392005DCCBB /* ARSearchShoppingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSearchShoppingAppTests.swift; sourceTree = "<group>"; };
+		DF92A757253DC392005DCCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF92A75C253DC392005DCCBB /* ARSearchShoppingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSearchShoppingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF92A760253DC392005DCCBB /* ARSearchShoppingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSearchShoppingAppUITests.swift; sourceTree = "<group>"; };
+		DF92A762253DC392005DCCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF92A738253DC392005DCCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A74E253DC392005DCCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A759253DC392005DCCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF92A732253DC392005DCCBB = {
+			isa = PBXGroup;
+			children = (
+				DF92A73D253DC392005DCCBB /* ARSearchShoppingApp */,
+				DF92A754253DC392005DCCBB /* ARSearchShoppingAppTests */,
+				DF92A75F253DC392005DCCBB /* ARSearchShoppingAppUITests */,
+				DF92A73C253DC392005DCCBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF92A73C253DC392005DCCBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A73B253DC392005DCCBB /* ARSearchShoppingApp.app */,
+				DF92A751253DC392005DCCBB /* ARSearchShoppingAppTests.xctest */,
+				DF92A75C253DC392005DCCBB /* ARSearchShoppingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF92A73D253DC392005DCCBB /* ARSearchShoppingApp */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A73E253DC392005DCCBB /* AppDelegate.swift */,
+				DF92A740253DC392005DCCBB /* art.scnassets */,
+				DF92A742253DC392005DCCBB /* ViewController.swift */,
+				DF92A744253DC392005DCCBB /* Main.storyboard */,
+				DF92A747253DC392005DCCBB /* Assets.xcassets */,
+				DF92A749253DC392005DCCBB /* LaunchScreen.storyboard */,
+				DF92A74C253DC392005DCCBB /* Info.plist */,
+			);
+			path = ARSearchShoppingApp;
+			sourceTree = "<group>";
+		};
+		DF92A754253DC392005DCCBB /* ARSearchShoppingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A755253DC392005DCCBB /* ARSearchShoppingAppTests.swift */,
+				DF92A757253DC392005DCCBB /* Info.plist */,
+			);
+			path = ARSearchShoppingAppTests;
+			sourceTree = "<group>";
+		};
+		DF92A75F253DC392005DCCBB /* ARSearchShoppingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A760253DC392005DCCBB /* ARSearchShoppingAppUITests.swift */,
+				DF92A762253DC392005DCCBB /* Info.plist */,
+			);
+			path = ARSearchShoppingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF92A73A253DC392005DCCBB /* ARSearchShoppingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF92A765253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingApp" */;
+			buildPhases = (
+				DF92A737253DC392005DCCBB /* Sources */,
+				DF92A738253DC392005DCCBB /* Frameworks */,
+				DF92A739253DC392005DCCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARSearchShoppingApp;
+			productName = ARSearchShoppingApp;
+			productReference = DF92A73B253DC392005DCCBB /* ARSearchShoppingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF92A750253DC392005DCCBB /* ARSearchShoppingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF92A768253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingAppTests" */;
+			buildPhases = (
+				DF92A74D253DC392005DCCBB /* Sources */,
+				DF92A74E253DC392005DCCBB /* Frameworks */,
+				DF92A74F253DC392005DCCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF92A753253DC392005DCCBB /* PBXTargetDependency */,
+			);
+			name = ARSearchShoppingAppTests;
+			productName = ARSearchShoppingAppTests;
+			productReference = DF92A751253DC392005DCCBB /* ARSearchShoppingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF92A75B253DC392005DCCBB /* ARSearchShoppingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF92A76B253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingAppUITests" */;
+			buildPhases = (
+				DF92A758253DC392005DCCBB /* Sources */,
+				DF92A759253DC392005DCCBB /* Frameworks */,
+				DF92A75A253DC392005DCCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF92A75E253DC392005DCCBB /* PBXTargetDependency */,
+			);
+			name = ARSearchShoppingAppUITests;
+			productName = ARSearchShoppingAppUITests;
+			productReference = DF92A75C253DC392005DCCBB /* ARSearchShoppingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF92A733253DC392005DCCBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DF92A73A253DC392005DCCBB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DF92A750253DC392005DCCBB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DF92A73A253DC392005DCCBB;
+					};
+					DF92A75B253DC392005DCCBB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DF92A73A253DC392005DCCBB;
+					};
+				};
+			};
+			buildConfigurationList = DF92A736253DC392005DCCBB /* Build configuration list for PBXProject "ARSearchShoppingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF92A732253DC392005DCCBB;
+			productRefGroup = DF92A73C253DC392005DCCBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF92A73A253DC392005DCCBB /* ARSearchShoppingApp */,
+				DF92A750253DC392005DCCBB /* ARSearchShoppingAppTests */,
+				DF92A75B253DC392005DCCBB /* ARSearchShoppingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF92A739253DC392005DCCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF92A741253DC392005DCCBB /* art.scnassets in Resources */,
+				DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */,
+				DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */,
+				DF92A746253DC392005DCCBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A74F253DC392005DCCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A75A253DC392005DCCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF92A737253DC392005DCCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF92A743253DC392005DCCBB /* ViewController.swift in Sources */,
+				DF92A73F253DC392005DCCBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A74D253DC392005DCCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF92A756253DC392005DCCBB /* ARSearchShoppingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A758253DC392005DCCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF92A761253DC392005DCCBB /* ARSearchShoppingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF92A753253DC392005DCCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF92A73A253DC392005DCCBB /* ARSearchShoppingApp */;
+			targetProxy = DF92A752253DC392005DCCBB /* PBXContainerItemProxy */;
+		};
+		DF92A75E253DC392005DCCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF92A73A253DC392005DCCBB /* ARSearchShoppingApp */;
+			targetProxy = DF92A75D253DC392005DCCBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF92A744253DC392005DCCBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF92A745253DC392005DCCBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF92A749253DC392005DCCBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF92A74A253DC392005DCCBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF92A763253DC392005DCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF92A764253DC392005DCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF92A766253DC392005DCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARSearchShoppingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARSearchShoppingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF92A767253DC392005DCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARSearchShoppingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARSearchShoppingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF92A769253DC392005DCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARSearchShoppingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARSearchShoppingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSearchShoppingApp.app/ARSearchShoppingApp";
+			};
+			name = Debug;
+		};
+		DF92A76A253DC392005DCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARSearchShoppingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARSearchShoppingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSearchShoppingApp.app/ARSearchShoppingApp";
+			};
+			name = Release;
+		};
+		DF92A76C253DC392005DCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARSearchShoppingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARSearchShoppingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSearchShoppingApp;
+			};
+			name = Debug;
+		};
+		DF92A76D253DC392005DCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARSearchShoppingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARSearchShoppingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSearchShoppingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF92A736253DC392005DCCBB /* Build configuration list for PBXProject "ARSearchShoppingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF92A763253DC392005DCCBB /* Debug */,
+				DF92A764253DC392005DCCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF92A765253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF92A766253DC392005DCCBB /* Debug */,
+				DF92A767253DC392005DCCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF92A768253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF92A769253DC392005DCCBB /* Debug */,
+				DF92A76A253DC392005DCCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF92A76B253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF92A76C253DC392005DCCBB /* Debug */,
+				DF92A76D253DC392005DCCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF92A733253DC392005DCCBB /* Project object */;
+}
