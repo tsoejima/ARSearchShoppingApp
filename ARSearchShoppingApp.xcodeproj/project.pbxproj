@@ -99,12 +99,12 @@
 		DF92A73D253DC392005DCCBB /* ARSearchShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				DF92A773253DC3EC005DCCBB /* Controller */,
+				DF92A771253DC3EC005DCCBB /* Model */,
+				DF92A772253DC3EC005DCCBB /* View */,
 				DF92A73E253DC392005DCCBB /* AppDelegate.swift */,
 				DF92A740253DC392005DCCBB /* art.scnassets */,
-				DF92A742253DC392005DCCBB /* ViewController.swift */,
-				DF92A744253DC392005DCCBB /* Main.storyboard */,
 				DF92A747253DC392005DCCBB /* Assets.xcassets */,
-				DF92A749253DC392005DCCBB /* LaunchScreen.storyboard */,
 				DF92A74C253DC392005DCCBB /* Info.plist */,
 			);
 			path = ARSearchShoppingApp;
@@ -126,6 +126,30 @@
 				DF92A762253DC392005DCCBB /* Info.plist */,
 			);
 			path = ARSearchShoppingAppUITests;
+			sourceTree = "<group>";
+		};
+		DF92A771253DC3EC005DCCBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF92A772253DC3EC005DCCBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A749253DC392005DCCBB /* LaunchScreen.storyboard */,
+				DF92A744253DC392005DCCBB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF92A773253DC3EC005DCCBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A742253DC392005DCCBB /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
