@@ -15,6 +15,8 @@
 		DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF92A749253DC392005DCCBB /* LaunchScreen.storyboard */; };
 		DF92A756253DC392005DCCBB /* ARSearchShoppingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A755253DC392005DCCBB /* ARSearchShoppingAppTests.swift */; };
 		DF92A761253DC392005DCCBB /* ARSearchShoppingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A760253DC392005DCCBB /* ARSearchShoppingAppUITests.swift */; };
+		DF92A778253DCB09005DCCBB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A777253DCB09005DCCBB /* HomeViewController.swift */; };
+		DF92A77E253DE835005DCCBB /* Noimage-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF92A77D253DE835005DCCBB /* Noimage-6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DF92A75C253DC392005DCCBB /* ARSearchShoppingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSearchShoppingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF92A760253DC392005DCCBB /* ARSearchShoppingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSearchShoppingAppUITests.swift; sourceTree = "<group>"; };
 		DF92A762253DC392005DCCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF92A777253DCB09005DCCBB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DF92A77D253DE835005DCCBB /* Noimage-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Noimage-6.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 		DF92A772253DC3EC005DCCBB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF92A77C253DE7E1005DCCBB /* image */,
 				DF92A749253DC392005DCCBB /* LaunchScreen.storyboard */,
 				DF92A744253DC392005DCCBB /* Main.storyboard */,
 			);
@@ -148,8 +153,17 @@
 			isa = PBXGroup;
 			children = (
 				DF92A742253DC392005DCCBB /* ViewController.swift */,
+				DF92A777253DCB09005DCCBB /* HomeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF92A77C253DE7E1005DCCBB /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A77D253DE835005DCCBB /* Noimage-6.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,7 @@
 				DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */,
 				DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */,
 				DF92A746253DC392005DCCBB /* Main.storyboard in Resources */,
+				DF92A77E253DE835005DCCBB /* Noimage-6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +300,7 @@
 			files = (
 				DF92A743253DC392005DCCBB /* ViewController.swift in Sources */,
 				DF92A73F253DC392005DCCBB /* AppDelegate.swift in Sources */,
+				DF92A778253DCB09005DCCBB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
