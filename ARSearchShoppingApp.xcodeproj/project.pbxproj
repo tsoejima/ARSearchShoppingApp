@@ -17,6 +17,10 @@
 		DF92A761253DC392005DCCBB /* ARSearchShoppingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A760253DC392005DCCBB /* ARSearchShoppingAppUITests.swift */; };
 		DF92A778253DCB09005DCCBB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A777253DCB09005DCCBB /* HomeViewController.swift */; };
 		DF92A77E253DE835005DCCBB /* Noimage-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF92A77D253DE835005DCCBB /* Noimage-6.jpg */; };
+		DF92A795253FBE79005DCCBB /* setTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */; };
+		DF92A79D253FC0FF005DCCBB /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */; };
+		DF92A7A2253FC626005DCCBB /* ホーム.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF92A7A1253FC626005DCCBB /* ホーム.jpg */; };
+		DF92A7B4253FD029005DCCBB /* homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF92A7B3253FD029005DCCBB /* homeicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		DF92A762253DC392005DCCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF92A777253DCB09005DCCBB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DF92A77D253DE835005DCCBB /* Noimage-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Noimage-6.jpg"; sourceTree = "<group>"; };
+		DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTabBarViewController.swift; sourceTree = "<group>"; };
+		DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		DF92A7A1253FC626005DCCBB /* ホーム.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ホーム.jpg"; sourceTree = "<group>"; };
+		DF92A7B3253FD029005DCCBB /* homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +153,8 @@
 				DF92A77C253DE7E1005DCCBB /* image */,
 				DF92A749253DC392005DCCBB /* LaunchScreen.storyboard */,
 				DF92A744253DC392005DCCBB /* Main.storyboard */,
+				DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */,
+				DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,6 +171,8 @@
 		DF92A77C253DE7E1005DCCBB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				DF92A7B3253FD029005DCCBB /* homeicon.png */,
+				DF92A7A1253FC626005DCCBB /* ホーム.jpg */,
 				DF92A77D253DE835005DCCBB /* Noimage-6.jpg */,
 			);
 			path = image;
@@ -270,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF92A741253DC392005DCCBB /* art.scnassets in Resources */,
+				DF92A7B4253FD029005DCCBB /* homeicon.png in Resources */,
 				DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */,
 				DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */,
+				DF92A7A2253FC626005DCCBB /* ホーム.jpg in Resources */,
 				DF92A746253DC392005DCCBB /* Main.storyboard in Resources */,
 				DF92A77E253DE835005DCCBB /* Noimage-6.jpg in Resources */,
 			);
@@ -301,6 +315,8 @@
 				DF92A743253DC392005DCCBB /* ViewController.swift in Sources */,
 				DF92A73F253DC392005DCCBB /* AppDelegate.swift in Sources */,
 				DF92A778253DCB09005DCCBB /* HomeViewController.swift in Sources */,
+				DF92A79D253FC0FF005DCCBB /* NavigationViewController.swift in Sources */,
+				DF92A795253FBE79005DCCBB /* setTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

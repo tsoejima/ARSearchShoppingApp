@@ -36,7 +36,7 @@
             </objects>
             <point key="canvasLocation" x="62" y="-938"/>
         </scene>
-        <!--ARSearchShopping-->
+        <!--Title-->
         <scene sceneID="yTI-dI-fSp">
             <objects>
                 <viewController id="Mom-D7-rn1" customClass="HomeViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -77,7 +77,17 @@
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSm-YW-3Li">
                                                                 <rect key="frame" x="20.5" y="5" width="373" height="190"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ホーム.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WRs-dz-49N">
+                                                                        <rect key="frame" x="15" y="20" width="108" height="150"/>
+                                                                    </imageView>
+                                                                </subviews>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="bottom" secondItem="WRs-dz-49N" secondAttribute="bottom" constant="20" id="Zvr-UX-Iwb"/>
+                                                                    <constraint firstItem="WRs-dz-49N" firstAttribute="leading" secondItem="kSm-YW-3Li" secondAttribute="leading" constant="15" id="erO-sd-7O2"/>
+                                                                    <constraint firstItem="WRs-dz-49N" firstAttribute="top" secondItem="kSm-YW-3Li" secondAttribute="top" constant="20" id="xDj-bG-12O"/>
+                                                                </constraints>
                                                             </view>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -120,12 +130,21 @@
                                                                 <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YI7-SY-kAv">
+                                                                <rect key="frame" x="332" y="7.5" width="62" height="30"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                                <state key="normal" title="　もあ　">
+                                                                    <color key="titleColor" red="0.98209856250000005" green="0.98657392190000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                </state>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstItem="lbN-W5-h3s" firstAttribute="width" secondItem="PLn-Yp-KSM" secondAttribute="width" multiplier="0.95" id="5QI-LX-xFF"/>
                                                             <constraint firstAttribute="bottom" secondItem="lbN-W5-h3s" secondAttribute="bottom" id="IaC-np-oyP"/>
+                                                            <constraint firstAttribute="trailing" secondItem="YI7-SY-kAv" secondAttribute="trailing" constant="20" id="Mmt-tC-5VZ"/>
                                                             <constraint firstItem="lbN-W5-h3s" firstAttribute="centerX" secondItem="PLn-Yp-KSM" secondAttribute="centerX" id="NwJ-Cx-N4o"/>
+                                                            <constraint firstItem="YI7-SY-kAv" firstAttribute="centerY" secondItem="PLn-Yp-KSM" secondAttribute="centerY" id="OXM-pT-L8C"/>
                                                             <constraint firstItem="1Lx-Nq-BdI" firstAttribute="centerY" secondItem="PLn-Yp-KSM" secondAttribute="centerY" id="R8d-nz-spZ"/>
                                                             <constraint firstItem="1Lx-Nq-BdI" firstAttribute="width" secondItem="PLn-Yp-KSM" secondAttribute="width" multiplier="0.9" id="Zg3-Zx-0Az"/>
                                                             <constraint firstItem="1Lx-Nq-BdI" firstAttribute="centerX" secondItem="PLn-Yp-KSM" secondAttribute="centerX" id="ndy-Uj-Sbr"/>
@@ -572,7 +591,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t88-iI-zWO"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="t88-iI-zWO" firstAttribute="bottom" secondItem="Zah-DY-VJc" secondAttribute="bottom" id="2zY-OL-Pgw"/>
                             <constraint firstItem="Zah-DY-VJc" firstAttribute="leading" secondItem="t88-iI-zWO" secondAttribute="leading" id="buA-k3-A0f"/>
@@ -580,7 +599,7 @@
                             <constraint firstItem="t88-iI-zWO" firstAttribute="trailing" secondItem="Zah-DY-VJc" secondAttribute="trailing" id="yCo-3D-l7t"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="ARSearchShopping" id="NMH-SX-9LF"/>
+                    <navigationItem key="navigationItem" title="Title" id="u93-sm-Poa"/>
                     <size key="freeformSize" width="414" height="2000"/>
                     <connections>
                         <outlet property="ARPRView" destination="kSm-YW-3Li" id="sSm-30-K3k"/>
@@ -590,6 +609,7 @@
                         <outlet property="HistoryImage4" destination="KKK-8n-gwH" id="1Gg-Ns-MLS"/>
                         <outlet property="HistoryImage5" destination="FF2-BZ-os4" id="bm9-iF-ke0"/>
                         <outlet property="HistoryImage6" destination="dC4-K2-Hrd" id="6eU-wv-4AG"/>
+                        <outlet property="RecomendDetailButton" destination="YI7-SY-kAv" id="786-52-goB"/>
                         <outlet property="RecomendImage1" destination="79m-Gt-ufb" id="tlQ-4a-VQT"/>
                         <outlet property="RecomendImage2" destination="sIj-Uf-GLJ" id="4Xv-vW-kzv"/>
                         <outlet property="RecomendImage3" destination="VJN-2K-LNF" id="9J1-2K-CIu"/>
@@ -601,16 +621,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iS2-qm-qTf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61" y="-1962"/>
+            <point key="canvasLocation" x="60.869565217391312" y="-1962.0535714285713"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Set Tab Bar View Controller-->
         <scene sceneID="ODJ-k8-4ur">
             <objects>
-                <tabBarController id="5Ac-Ne-Eqe" sceneMemberID="viewController">
+                <tabBarController id="5Ac-Ne-Eqe" customClass="setTabBarViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Rxp-SB-Z2p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.0" green="0.32941176470588235" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.3294117647" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="lZC-Tf-RyW" kind="relationship" relationship="viewControllers" id="5H2-kj-M3c"/>
@@ -750,7 +771,7 @@
         <!--Item 1-->
         <scene sceneID="AmJ-hh-p2e">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lZC-Tf-RyW" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lZC-Tf-RyW" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item 1" id="SH5-TT-5I6"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wYC-Tf-I7P">
@@ -763,13 +784,14 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pqe-9J-tFT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationItem title="Title" id="Xfj-Ff-ZR3"/>
             </objects>
             <point key="canvasLocation" x="-786.95652173913049" y="-1593.0803571428571"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="eAV-7a-Zag">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Za7-jB-BnD" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Za7-jB-BnD" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item 2" id="uUK-wZ-WrC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rZC-AR-SkC">
@@ -788,7 +810,7 @@
         <!--Item-->
         <scene sceneID="7Lz-jF-Rxw">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1SO-DJ-wqD" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1SO-DJ-wqD" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="L3D-Aq-iKo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wVJ-Ic-d9t">
@@ -807,7 +829,7 @@
         <!--Item-->
         <scene sceneID="tSN-DX-fSZ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bXS-19-iSR" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bXS-19-iSR" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="VqK-a1-JkF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9tB-OV-c24">
@@ -826,7 +848,7 @@
         <!--Item-->
         <scene sceneID="u5s-Qb-XIr">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mxV-Tt-ADr" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mxV-Tt-ADr" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="r5Y-6J-zFU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xma-DX-Izg">
@@ -845,6 +867,7 @@
     </scenes>
     <resources>
         <image name="Noimage-6.jpg" width="600" height="640"/>
+        <image name="ホーム.jpg" width="108" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -853,9 +876,6 @@
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

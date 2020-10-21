@@ -11,7 +11,10 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var SearchBar: UITextField!
     @IBOutlet weak var ARPRView: UIView!
+    
+    @IBOutlet weak var NavigationiCon: UIBarButtonItem!
     //RecomendImage
+    @IBOutlet weak var RecomendDetailButton: UIButton!
     @IBOutlet weak var RecomendImage1: UIImageView!
     @IBOutlet weak var RecomendImage2: UIImageView!
     @IBOutlet weak var RecomendImage3: UIImageView!
@@ -28,7 +31,9 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //NavigationController
+        UITabBar.appearance().barTintColor = UIColor.red
+        //UIImageView(image:UIImage(named:"ホーム.jpg"))
         //UIの設定
         //ARPRView
         SearchBar.layer.cornerRadius = 15
@@ -37,6 +42,8 @@ class HomeViewController: UIViewController {
         ARPRView.layer.borderWidth = 1
         
         //RecomendView
+        RecomendDetailButton.layer.cornerRadius = 15
+        RecomendDetailButton.layer.backgroundColor = UIColor(red: 0.176, green: 0.549, blue:0.235, alpha: 1.000).cgColor
         RecomendImage1.layer.cornerRadius = 10
         RecomendImage2.layer.cornerRadius = 10
         RecomendImage3.layer.cornerRadius = 10
