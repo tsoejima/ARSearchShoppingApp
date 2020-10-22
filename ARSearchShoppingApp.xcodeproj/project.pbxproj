@@ -21,6 +21,15 @@
 		DF92A79D253FC0FF005DCCBB /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */; };
 		DF92A7A2253FC626005DCCBB /* ホーム.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF92A7A1253FC626005DCCBB /* ホーム.jpg */; };
 		DF92A7B4253FD029005DCCBB /* homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF92A7B3253FD029005DCCBB /* homeicon.png */; };
+		DF92A7BF254149C1005DCCBB /* 30AR.png in Resources */ = {isa = PBXBuildFile; fileRef = DF92A7BE254149C1005DCCBB /* 30AR.png */; };
+		DFA6E3E125414E3200772BFC /* 90ホーム.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6E3E025414E3200772BFC /* 90ホーム.png */; };
+		DFA6E3EA2541501300772BFC /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6E3E52541501300772BFC /* home.png */; };
+		DFA6E3EB2541501300772BFC /* Recomend.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6E3E62541501300772BFC /* Recomend.png */; };
+		DFA6E3EC2541501300772BFC /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6E3E72541501300772BFC /* Search.png */; };
+		DFA6E3ED2541501300772BFC /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6E3E82541501300772BFC /* Setting.png */; };
+		DFA6E3EE2541501300772BFC /* ARicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6E3E92541501300772BFC /* ARicon.png */; };
+		DFA6E3F325415EBE00772BFC /* topicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA6E3F225415EBE00772BFC /* topicon.png */; };
+		DFA6E408254174E200772BFC /* arTabBarSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6E407254174E200772BFC /* arTabBarSettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,15 @@
 		DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		DF92A7A1253FC626005DCCBB /* ホーム.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ホーム.jpg"; sourceTree = "<group>"; };
 		DF92A7B3253FD029005DCCBB /* homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeicon.png; sourceTree = "<group>"; };
+		DF92A7BE254149C1005DCCBB /* 30AR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30AR.png; sourceTree = "<group>"; };
+		DFA6E3E025414E3200772BFC /* 90ホーム.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "90ホーム.png"; sourceTree = "<group>"; };
+		DFA6E3E52541501300772BFC /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		DFA6E3E62541501300772BFC /* Recomend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Recomend.png; sourceTree = "<group>"; };
+		DFA6E3E72541501300772BFC /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		DFA6E3E82541501300772BFC /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
+		DFA6E3E92541501300772BFC /* ARicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARicon.png; sourceTree = "<group>"; };
+		DFA6E3F225415EBE00772BFC /* topicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topicon.png; sourceTree = "<group>"; };
+		DFA6E407254174E200772BFC /* arTabBarSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arTabBarSettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +182,7 @@
 			children = (
 				DF92A742253DC392005DCCBB /* ViewController.swift */,
 				DF92A777253DCB09005DCCBB /* HomeViewController.swift */,
+				DFA6E407254174E200772BFC /* arTabBarSettingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,6 +190,14 @@
 		DF92A77C253DE7E1005DCCBB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				DFA6E3F225415EBE00772BFC /* topicon.png */,
+				DFA6E3E92541501300772BFC /* ARicon.png */,
+				DFA6E3E52541501300772BFC /* home.png */,
+				DFA6E3E62541501300772BFC /* Recomend.png */,
+				DFA6E3E72541501300772BFC /* Search.png */,
+				DFA6E3E82541501300772BFC /* Setting.png */,
+				DFA6E3E025414E3200772BFC /* 90ホーム.png */,
+				DF92A7BE254149C1005DCCBB /* 30AR.png */,
 				DF92A7B3253FD029005DCCBB /* homeicon.png */,
 				DF92A7A1253FC626005DCCBB /* ホーム.jpg */,
 				DF92A77D253DE835005DCCBB /* Noimage-6.jpg */,
@@ -282,11 +309,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF92A741253DC392005DCCBB /* art.scnassets in Resources */,
+				DFA6E3EE2541501300772BFC /* ARicon.png in Resources */,
+				DFA6E3ED2541501300772BFC /* Setting.png in Resources */,
+				DF92A7BF254149C1005DCCBB /* 30AR.png in Resources */,
 				DF92A7B4253FD029005DCCBB /* homeicon.png in Resources */,
+				DFA6E3E125414E3200772BFC /* 90ホーム.png in Resources */,
 				DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */,
 				DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */,
+				DFA6E3EB2541501300772BFC /* Recomend.png in Resources */,
+				DFA6E3EC2541501300772BFC /* Search.png in Resources */,
+				DFA6E3EA2541501300772BFC /* home.png in Resources */,
 				DF92A7A2253FC626005DCCBB /* ホーム.jpg in Resources */,
 				DF92A746253DC392005DCCBB /* Main.storyboard in Resources */,
+				DFA6E3F325415EBE00772BFC /* topicon.png in Resources */,
 				DF92A77E253DE835005DCCBB /* Noimage-6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA6E408254174E200772BFC /* arTabBarSettingViewController.swift in Sources */,
 				DF92A743253DC392005DCCBB /* ViewController.swift in Sources */,
 				DF92A73F253DC392005DCCBB /* AppDelegate.swift in Sources */,
 				DF92A778253DCB09005DCCBB /* HomeViewController.swift in Sources */,

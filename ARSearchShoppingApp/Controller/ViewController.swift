@@ -9,8 +9,9 @@ import UIKit
 import SceneKit
 import ARKit
 
-class ViewController: UIViewController, ARSCNViewDelegate {
+class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var returnTabButton: UINavigationItem!
     @IBOutlet var sceneView: ARSCNView!
     var selectedNode: SCNNode?
     var xyz: float_t = 0.2
@@ -24,6 +25,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.delegate = self
+        //タブ非表示
+        tabBarController?.tabBar.isHidden = true
         // Set the view's delegate
         sceneView.delegate = self
                 
@@ -48,7 +52,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         //ドラッグのアクション
         /*sceneView.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(self.dragView(sender:))))*/
 
+        
     }
+    
+    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+            if viewController is arTabBarSettingViewController {
+                tabBarController?.tabBar.isHidden = false
+                print("OK!!!")
+            }
+        }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -64,9 +76,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             if ARWorldTrackingConfiguration.supportsFrameSemantics(.personSegmentationWithDepth) {
             // People Occlusion を使用する
                 configuration.frameSemantics = .personSegmentationWithDepth
-                message = "Ok! This device supports people occulusion."
+                message = "occulusion使用可能"
             } else {
-                message = "No! This device don't support people occulusion."
+                message = "occulusion使用不可"
                         }
             print("\(message)")
 

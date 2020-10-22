@@ -1,5 +1,5 @@
 //
-//  ARTabPageViewController.swift
+//  arTabBarSettingViewController.swift
 //  ARSearchShoppingApp
 //
 //  Created by 副島拓哉 on 2020/10/22.
@@ -7,10 +7,12 @@
 
 import UIKit
 
-class ARTabPageViewController: UIViewController, UINavigationControllerDelegate {
+class arTabBarSettingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
     
 

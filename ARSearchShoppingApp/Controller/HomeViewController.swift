@@ -11,7 +11,10 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var SearchBar: UITextField!
     @IBOutlet weak var ARPRView: UIView!
-    
+    //TopScrollView
+    @IBOutlet weak var ScrollView: UIView!
+    private var pageControl: UIPageControl!
+    //NavigateiCon
     @IBOutlet weak var NavigationiCon: UIBarButtonItem!
     //RecomendImage
     @IBOutlet weak var RecomendDetailButton: UIButton!
@@ -22,6 +25,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var RecomendImage5: UIImageView!
     @IBOutlet weak var RecomendImage6: UIImageView!
     //HistoryImage
+    @IBOutlet weak var HistoryDetailButton: UIButton!
     @IBOutlet weak var HistoryImage1: UIImageView!
     @IBOutlet weak var HistoryImage2: UIImageView!
     @IBOutlet weak var HistoryImage3: UIImageView!
@@ -31,8 +35,14 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //NavigationBar設定
+        self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white] //タイトルに画像ができない場合のタイトル色
+        navigationController?.navigationBar.isTranslucent = false //透過なし設定
+        navigationItem.titleView = UIImageView(image: UIImage(named: "topicon.png")) //画像設定
+        
         //NavigationController
         UITabBar.appearance().barTintColor = UIColor.red
+        
         //UIImageView(image:UIImage(named:"ホーム.jpg"))
         //UIの設定
         //ARPRView
@@ -43,7 +53,7 @@ class HomeViewController: UIViewController {
         
         //RecomendView
         RecomendDetailButton.layer.cornerRadius = 15
-        RecomendDetailButton.layer.backgroundColor = UIColor(red: 0.176, green: 0.549, blue:0.235, alpha: 1.000).cgColor
+        RecomendDetailButton.layer.backgroundColor = UIColor(red: 0.211, green: 0.258, blue:0.337, alpha: 1.000).cgColor
         RecomendImage1.layer.cornerRadius = 10
         RecomendImage2.layer.cornerRadius = 10
         RecomendImage3.layer.cornerRadius = 10
@@ -52,12 +62,15 @@ class HomeViewController: UIViewController {
         RecomendImage6.layer.cornerRadius = 10
         
         //HistoryView
+        HistoryDetailButton.layer.cornerRadius = 15
+        HistoryDetailButton.layer.backgroundColor = UIColor(red: 0.211, green: 0.258, blue:0.337, alpha: 1.000).cgColor
         HistoryImage1.layer.cornerRadius = 10
         HistoryImage2.layer.cornerRadius = 10
         HistoryImage3.layer.cornerRadius = 10
         HistoryImage4.layer.cornerRadius = 10
         HistoryImage5.layer.cornerRadius = 10
         HistoryImage6.layer.cornerRadius = 10
+        
     }
     
 

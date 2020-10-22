@@ -11,7 +11,13 @@ class NavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationBar.barTintColor = UIColor.white
+        navigationController?.navigationBar.isTranslucent = false
+        navigationBar.barTintColor = UIColor(red: 0.211, green: 0.258, blue:0.337, alpha: 1.000)
+        navigationItem.titleView = UIImageView(image: UIImage(named: "topicon.png"))
+        self.navigationController?.navigationBar.titleTextAttributes = [
+                // 文字の色
+                .foregroundColor: UIColor.white
+            ]
         // Do any additional setup after loading the view.
     }
     
