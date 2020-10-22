@@ -77,7 +77,18 @@
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSm-YW-3Li">
                                                                 <rect key="frame" x="20.5" y="5" width="373" height="190"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homePR.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="cW1-st-Ok2">
+                                                                        <rect key="frame" x="9.5" y="5" width="354" height="180.5"/>
+                                                                    </imageView>
+                                                                </subviews>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="cW1-st-Ok2" firstAttribute="centerY" secondItem="kSm-YW-3Li" secondAttribute="centerY" id="5av-Fq-INT"/>
+                                                                    <constraint firstItem="cW1-st-Ok2" firstAttribute="centerX" secondItem="kSm-YW-3Li" secondAttribute="centerX" id="DUC-Mc-hYR"/>
+                                                                    <constraint firstItem="cW1-st-Ok2" firstAttribute="width" secondItem="kSm-YW-3Li" secondAttribute="width" multiplier="0.95" id="IMa-He-n7Z"/>
+                                                                    <constraint firstItem="cW1-st-Ok2" firstAttribute="height" secondItem="kSm-YW-3Li" secondAttribute="height" multiplier="0.95" id="sGs-eG-7sz"/>
+                                                                </constraints>
                                                             </view>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -622,7 +633,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iS2-qm-qTf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120" y="-1962"/>
+            <point key="canvasLocation" x="118.84057971014494" y="-1962.0535714285713"/>
         </scene>
         <!--Set Tab Bar View Controller-->
         <scene sceneID="ODJ-k8-4ur">
@@ -774,7 +785,7 @@
         <scene sceneID="AmJ-hh-p2e">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lZC-Tf-RyW" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="ホーム" image="home.png" id="SH5-TT-5I6"/>
+                    <tabBarItem key="tabBarItem" title="ホーム" image="Homeicon:Tab.png" id="SH5-TT-5I6"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wYC-Tf-I7P">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -794,7 +805,7 @@
         <scene sceneID="eAV-7a-Zag">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Za7-jB-BnD" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="検索" image="Search.png" id="uUK-wZ-WrC"/>
+                    <tabBarItem key="tabBarItem" title="検索" image="Searchicon:Tab.png" id="uUK-wZ-WrC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rZC-AR-SkC">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -813,7 +824,7 @@
         <scene sceneID="7Lz-jF-Rxw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1SO-DJ-wqD" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="ARで検索" image="30AR.png" id="L3D-Aq-iKo"/>
+                    <tabBarItem key="tabBarItem" title="ARで検索" image="ARicon:Tab.png" id="L3D-Aq-iKo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wVJ-Ic-d9t">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -832,7 +843,7 @@
         <scene sceneID="tSN-DX-fSZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bXS-19-iSR" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="お気に入り" image="Recomend.png" id="VqK-a1-JkF"/>
+                    <tabBarItem key="tabBarItem" title="お気に入り" image="Staricon:Tab.png" id="VqK-a1-JkF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9tB-OV-c24">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -851,7 +862,7 @@
         <scene sceneID="u5s-Qb-XIr">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mxV-Tt-ADr" customClass="NavigationViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="設定" image="Setting.png" id="r5Y-6J-zFU"/>
+                    <tabBarItem key="tabBarItem" title="設定" image="Settingicon:Tab.png" id="r5Y-6J-zFU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xma-DX-Izg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -868,12 +879,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="30AR.png" width="30" height="31"/>
+        <image name="ARicon:Tab.png" width="23" height="24.510639190673828"/>
+        <image name="Homeicon:Tab.png" width="24.545454025268555" height="24.545454025268555"/>
         <image name="Noimage-6.jpg" width="600" height="640"/>
-        <image name="Recomend.png" width="30" height="30"/>
-        <image name="Search.png" width="30" height="31"/>
-        <image name="Setting.png" width="30" height="30"/>
-        <image name="home.png" width="30" height="30"/>
+        <image name="Searchicon:Tab.png" width="22" height="24.244897842407227"/>
+        <image name="Settingicon:Tab.png" width="23.736263275146484" height="23.736263275146484"/>
+        <image name="Staricon:Tab.png" width="25.411764144897461" height="24.564706802368164"/>
+        <image name="homePR.jpeg" width="1006" height="566"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

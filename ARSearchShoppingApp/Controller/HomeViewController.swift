@@ -38,7 +38,7 @@ class HomeViewController: UIViewController {
         //NavigationBar設定
         self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white] //タイトルに画像ができない場合のタイトル色
         navigationController?.navigationBar.isTranslucent = false //透過なし設定
-        navigationItem.titleView = UIImageView(image: UIImage(named: "topicon.png")) //画像設定
+        navigationItem.titleView = UIImageView(image: UIImage(named: "Topicon:nnn.png")) //画像設定
         
         //NavigationController
         UITabBar.appearance().barTintColor = UIColor.red
