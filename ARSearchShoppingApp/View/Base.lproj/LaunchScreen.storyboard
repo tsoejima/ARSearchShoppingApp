@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,15 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ホーム.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RaO-iQ-6td">
-                                <rect key="frame" x="153" y="394" width="108" height="108"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1000×1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ffg-rY-iYz">
+                                <rect key="frame" x="0.0" y="403" width="414" height="90"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="RaO-iQ-6td" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Tcb-ju-w3P"/>
-                            <constraint firstItem="RaO-iQ-6td" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="d1j-pO-Ypd"/>
+                            <constraint firstItem="Ffg-rY-iYz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8w8-Ml-7jA"/>
+                            <constraint firstItem="Ffg-rY-iYz" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="W10-zy-sQa"/>
+                            <constraint firstItem="Ffg-rY-iYz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ghW-Tc-XI1"/>
+                            <constraint firstItem="Ffg-rY-iYz" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.1" id="tjF-HQ-Mwc"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -34,7 +36,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ホーム.jpg" width="108" height="108"/>
+        <image name="1000×1000.png" width="1000" height="1000"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

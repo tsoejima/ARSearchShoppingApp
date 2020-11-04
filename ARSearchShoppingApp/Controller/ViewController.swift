@@ -13,6 +13,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
 
     @IBOutlet weak var returnTabButton: UINavigationItem!
     @IBOutlet var sceneView: ARSCNView!
+    @IBOutlet weak var SliderView: UIView!
     var selectedNode: SCNNode?
     var xyz: float_t = 0.2
     var x: float_t = 0.2
@@ -25,6 +26,9 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        SliderView.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.600)
+        
         navigationController?.delegate = self
         //タブ非表示
         tabBarController?.tabBar.isHidden = true
@@ -32,7 +36,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
         sceneView.delegate = self
                 
         // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
+        sceneView.showsStatistics = false
                 
         // Create a new scene
         //let scene = SCNScene(named: "art.scnassets/ship.scn")!

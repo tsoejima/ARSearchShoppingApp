@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Ac-Ne-Eqe">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="LZS-wU-KRT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Nj-Mu-Ypl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="検索画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ykq-2x-JpM">
-                                <rect key="frame" x="126.5" y="424" width="161" height="48"/>
+                                <rect key="frame" x="114.66666666666669" y="398" width="161" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -57,7 +57,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="　なにをお探しですか？" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hDO-1c-h3N">
-                                                                <rect key="frame" x="20.5" y="7.5" width="373" height="35"/>
+                                                                <rect key="frame" x="20.666666666666657" y="7.6666666666666714" width="372.66666666666674" height="35"/>
                                                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                                                 <color key="textColor" systemColor="systemGray2Color"/>
                                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
@@ -76,10 +76,10 @@
                                                         <rect key="frame" x="0.0" y="50" width="414" height="200"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSm-YW-3Li">
-                                                                <rect key="frame" x="20.5" y="5" width="373" height="190"/>
+                                                                <rect key="frame" x="20.666666666666657" y="5" width="372.66666666666674" height="190"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homePR.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="cW1-st-Ok2">
-                                                                        <rect key="frame" x="9.5" y="5" width="354" height="180.5"/>
+                                                                        <rect key="frame" x="9.3333333333333428" y="4.6666666666666572" width="354" height="180.66666666666666"/>
                                                                     </imageView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -119,20 +119,20 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lbN-W5-h3s" userLabel="LineView1">
-                                                                <rect key="frame" x="10.5" y="44" width="393" height="1"/>
+                                                                <rect key="frame" x="10.333333333333343" y="44" width="393.33333333333326" height="1"/>
                                                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="qnm-GN-J3c"/>
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="おすすめの商品" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lx-Nq-BdI">
-                                                                <rect key="frame" x="20.5" y="12" width="373" height="21"/>
+                                                                <rect key="frame" x="20.666666666666657" y="12" width="372.66666666666674" height="21"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YI7-SY-kAv">
-                                                                <rect key="frame" x="286" y="7.5" width="108" height="30"/>
+                                                                <rect key="frame" x="286" y="7.6666666666666856" width="108" height="30"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                                 <state key="normal" title="　もっとみる　">
                                                                     <color key="titleColor" systemColor="systemGray6Color"/>
@@ -155,16 +155,16 @@
                                                         <rect key="frame" x="0.0" y="45" width="414" height="255"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mG2-qZ-rMq">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="127.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="127.66666666666667"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9NV-jH-Mnt">
-                                                                        <rect key="frame" x="20.5" y="3" width="373" height="121.5"/>
+                                                                        <rect key="frame" x="20.666666666666657" y="3.3333333333333144" width="372.66666666666674" height="121"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVl-W8-57d">
-                                                                                <rect key="frame" x="124.5" y="5" width="124" height="111.5"/>
+                                                                                <rect key="frame" x="124.33333333333331" y="5" width="124" height="111"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sIj-Uf-GLJ">
-                                                                                        <rect key="frame" x="3" y="3" width="118" height="105.5"/>
+                                                                                        <rect key="frame" x="3" y="2.6666666666666856" width="118" height="105.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -176,10 +176,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMD-ii-sRh">
-                                                                                <rect key="frame" x="0.0" y="5" width="124.5" height="111.5"/>
+                                                                                <rect key="frame" x="0.0" y="5" width="124.33333333333333" height="111"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="79m-Gt-ufb">
-                                                                                        <rect key="frame" x="3.5" y="3" width="118" height="105.5"/>
+                                                                                        <rect key="frame" x="3" y="2.6666666666666856" width="118" height="105.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -191,10 +191,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CW6-Sq-zsy">
-                                                                                <rect key="frame" x="248.5" y="5" width="124.5" height="111.5"/>
+                                                                                <rect key="frame" x="248.33333333333334" y="5" width="124.33333333333334" height="111"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VJN-2K-LNF">
-                                                                                        <rect key="frame" x="3" y="3" width="118" height="105.5"/>
+                                                                                        <rect key="frame" x="3.3333333333333144" y="2.6666666666666856" width="118" height="105.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -236,13 +236,13 @@
                                                                 <rect key="frame" x="0.0" y="127" width="414" height="128"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6u-yW-0EB">
-                                                                        <rect key="frame" x="20.5" y="3" width="373" height="122"/>
+                                                                        <rect key="frame" x="20.666666666666657" y="3.3333333333333641" width="372.66666666666674" height="121.33333333333331"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztx-gv-ffV">
-                                                                                <rect key="frame" x="124.5" y="5" width="124" height="112"/>
+                                                                                <rect key="frame" x="124.33333333333331" y="5" width="124" height="111.33333333333333"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wIb-M6-Ezd">
-                                                                                        <rect key="frame" x="3" y="3" width="118" height="106"/>
+                                                                                        <rect key="frame" x="3" y="2.6666666666666288" width="118" height="106"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -254,10 +254,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sWZ-8K-l1B">
-                                                                                <rect key="frame" x="0.0" y="5" width="124.5" height="112"/>
+                                                                                <rect key="frame" x="0.0" y="5" width="124.33333333333333" height="111.33333333333333"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qGZ-cp-npc">
-                                                                                        <rect key="frame" x="3.5" y="3" width="118" height="106"/>
+                                                                                        <rect key="frame" x="3" y="2.6666666666666288" width="118" height="106"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -269,10 +269,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JGX-5a-gsF">
-                                                                                <rect key="frame" x="248.5" y="5" width="124.5" height="112"/>
+                                                                                <rect key="frame" x="248.33333333333334" y="5" width="124.33333333333334" height="111.33333333333333"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7Zu-Jn-YVP">
-                                                                                        <rect key="frame" x="3" y="3" width="118" height="106"/>
+                                                                                        <rect key="frame" x="3.3333333333333144" y="2.6666666666666288" width="118" height="106"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -343,20 +343,20 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0P1-c9-FBz" userLabel="LineView1">
-                                                                <rect key="frame" x="10.5" y="44" width="393" height="1"/>
+                                                                <rect key="frame" x="10.666666666666657" y="44" width="393" height="1"/>
                                                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="1" id="Ta8-ft-MJu"/>
                                                                 </constraints>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="検索履歴" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RG-p0-Kbb">
-                                                                <rect key="frame" x="20.5" y="12" width="373" height="21"/>
+                                                                <rect key="frame" x="20.666666666666657" y="12" width="372.66666666666674" height="21"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVy-aG-cJa">
-                                                                <rect key="frame" x="286" y="7.5" width="108" height="30"/>
+                                                                <rect key="frame" x="286" y="7.6666666666666288" width="108" height="30"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                                 <state key="normal" title="　もっとみる　">
                                                                     <color key="titleColor" systemColor="systemGray6Color"/>
@@ -379,16 +379,16 @@
                                                         <rect key="frame" x="0.0" y="45" width="414" height="255"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qkg-LQ-VcH">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="127.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="127.66666666666667"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yFs-FM-lWn">
-                                                                        <rect key="frame" x="20.5" y="0.0" width="373" height="127.5"/>
+                                                                        <rect key="frame" x="20.666666666666657" y="0.0" width="372.66666666666674" height="127.66666666666667"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xEW-b8-nkl">
-                                                                                <rect key="frame" x="124.5" y="5" width="124" height="117.5"/>
+                                                                                <rect key="frame" x="124.33333333333331" y="5" width="124" height="117.66666666666667"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Lv8-WO-e4k">
-                                                                                        <rect key="frame" x="3" y="3" width="118" height="111.5"/>
+                                                                                        <rect key="frame" x="3" y="3" width="118" height="111.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -400,10 +400,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="waX-QW-2VZ">
-                                                                                <rect key="frame" x="0.0" y="5" width="124.5" height="117.5"/>
+                                                                                <rect key="frame" x="0.0" y="5" width="124.33333333333333" height="117.66666666666667"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zyh-HE-PST">
-                                                                                        <rect key="frame" x="3.5" y="3" width="118" height="111.5"/>
+                                                                                        <rect key="frame" x="3" y="3" width="118" height="111.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -415,10 +415,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WcE-Y2-Ky7">
-                                                                                <rect key="frame" x="248.5" y="5" width="124.5" height="117.5"/>
+                                                                                <rect key="frame" x="248.33333333333334" y="5" width="124.33333333333334" height="117.66666666666667"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xgc-YC-usg">
-                                                                                        <rect key="frame" x="3" y="3" width="118" height="111.5"/>
+                                                                                        <rect key="frame" x="3.3333333333333144" y="3" width="118" height="111.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -457,16 +457,16 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RrY-vd-Aac">
-                                                                <rect key="frame" x="0.0" y="127.5" width="414" height="127.5"/>
+                                                                <rect key="frame" x="0.0" y="127.66666666666663" width="414" height="127.33333333333331"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SKN-m4-cS7">
-                                                                        <rect key="frame" x="20.5" y="0.0" width="373" height="127.5"/>
+                                                                        <rect key="frame" x="20.666666666666657" y="0.0" width="372.66666666666674" height="127.33333333333333"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L54-tC-9fR">
-                                                                                <rect key="frame" x="124.5" y="5" width="124" height="117.5"/>
+                                                                                <rect key="frame" x="124.33333333333331" y="5" width="124" height="117.33333333333333"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FF2-BZ-os4">
-                                                                                        <rect key="frame" x="3" y="3" width="118" height="111.5"/>
+                                                                                        <rect key="frame" x="3" y="2.6666666666667425" width="118" height="111.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -478,10 +478,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y8t-wf-pGj">
-                                                                                <rect key="frame" x="0.0" y="5" width="124.5" height="117.5"/>
+                                                                                <rect key="frame" x="0.0" y="5" width="124.33333333333333" height="117.33333333333333"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KKK-8n-gwH">
-                                                                                        <rect key="frame" x="3.5" y="3" width="118" height="111.5"/>
+                                                                                        <rect key="frame" x="3" y="2.6666666666667425" width="118" height="111.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -493,10 +493,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1I-Su-f7e">
-                                                                                <rect key="frame" x="248.5" y="5" width="124.5" height="117.5"/>
+                                                                                <rect key="frame" x="248.33333333333334" y="5" width="124.33333333333334" height="117.33333333333333"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noimage-6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dC4-K2-Hrd">
-                                                                                        <rect key="frame" x="3" y="3" width="118" height="111.5"/>
+                                                                                        <rect key="frame" x="3.3333333333333144" y="2.6666666666667425" width="118" height="111.66666666666667"/>
                                                                                     </imageView>
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -662,18 +662,18 @@
             <objects>
                 <viewController id="t6D-Vm-FXW" customClass="arTabBarSettingViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SUi-Wv-FHi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwT-cn-Tla">
-                                <rect key="frame" x="159" y="433" width="96" height="30"/>
+                                <rect key="frame" x="147" y="407" width="96" height="30"/>
                                 <state key="normal" title="ARで検索する"/>
                                 <connections>
                                     <segue destination="BV1-FR-VrT" kind="show" id="Jl4-uW-or1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AR検索画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzz-Pe-bWb">
-                                <rect key="frame" x="101" y="324" width="212" height="48"/>
+                                <rect key="frame" x="89" y="298" width="212" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -699,11 +699,11 @@
             <objects>
                 <viewController id="3Ff-mx-s4u" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EPd-7V-H9K">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ほしいもの画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGC-w8-tOk">
-                                <rect key="frame" x="66" y="424" width="282" height="48"/>
+                                <rect key="frame" x="54" y="398" width="282" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -727,11 +727,11 @@
             <objects>
                 <viewController id="upS-do-Xrj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OP5-YM-2Th">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="検索履歴画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZP-gF-CNn">
-                                <rect key="frame" x="86.5" y="424" width="241.5" height="48"/>
+                                <rect key="frame" x="74.333333333333329" y="398" width="241.33333333333337" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -755,31 +755,56 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="BV1-FR-VrT" customClass="ViewController" customModule="ARSearchShoppingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </arscnView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Kn-w8-SVs">
+                                <rect key="frame" x="0.0" y="676.66666666666663" width="390" height="84.333333333333371"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WdS-20-IWn">
+                                        <rect key="frame" x="37" y="26.333333333333371" width="316" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNb-lP-h05">
+                                <rect key="frame" x="0.0" y="88" width="156" height="84.333333333333314"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="uNb-lP-h05" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="1ae-Ng-z6z"/>
+                            <constraint firstItem="uNb-lP-h05" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" id="5Yx-2n-n3I"/>
+                            <constraint firstItem="1Kn-w8-SVs" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="BxF-XH-X48"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="Dmw-Rl-oA1"/>
                             <constraint firstAttribute="bottom" secondItem="BrB-h1-WRS" secondAttribute="bottom" id="Eiu-Fh-F8O"/>
+                            <constraint firstItem="1Kn-w8-SVs" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="Fop-Yi-8k6"/>
+                            <constraint firstItem="1Kn-w8-SVs" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="IeR-bL-v4X"/>
+                            <constraint firstItem="1Kn-w8-SVs" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="LWq-eu-viA"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="Qn4-LK-FnJ"/>
+                            <constraint firstItem="uNb-lP-h05" firstAttribute="width" secondItem="U0K-SW-4ec" secondAttribute="width" multiplier="0.4" id="W8K-IA-F02"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="X2V-Kt-ViX"/>
+                            <constraint firstItem="uNb-lP-h05" firstAttribute="height" secondItem="U0K-SW-4ec" secondAttribute="height" multiplier="0.1" id="gah-ck-ZGe"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="1Kn-w8-SVs" secondAttribute="bottom" id="pBz-5n-KHl"/>
+                            <constraint firstItem="1Kn-w8-SVs" firstAttribute="height" secondItem="U0K-SW-4ec" secondAttribute="height" multiplier="0.1" id="pcv-Oc-cDD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g9J-HC-oJF"/>
                     <connections>
+                        <outlet property="SliderView" destination="1Kn-w8-SVs" id="SuQ-xs-2kQ"/>
                         <outlet property="returnTabButton" destination="g9J-HC-oJF" id="24h-rm-5QG"/>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1045" y="-256"/>
+            <point key="canvasLocation" x="1044.6153846153845" y="-256.6350710900474"/>
         </scene>
         <!--ホーム-->
         <scene sceneID="AmJ-hh-p2e">
@@ -788,7 +813,7 @@
                     <tabBarItem key="tabBarItem" title="ホーム" image="Homeicon:Tab.png" id="SH5-TT-5I6"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wYC-Tf-I7P">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -808,7 +833,7 @@
                     <tabBarItem key="tabBarItem" title="検索" image="Searchicon:Tab.png" id="uUK-wZ-WrC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rZC-AR-SkC">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -827,7 +852,7 @@
                     <tabBarItem key="tabBarItem" title="ARで検索" image="ARicon:Tab.png" id="L3D-Aq-iKo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wVJ-Ic-d9t">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -846,7 +871,7 @@
                     <tabBarItem key="tabBarItem" title="お気に入り" image="Staricon:Tab.png" id="VqK-a1-JkF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9tB-OV-c24">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -865,7 +890,7 @@
                     <tabBarItem key="tabBarItem" title="設定" image="Settingicon:Tab.png" id="r5Y-6J-zFU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xma-DX-Izg">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
