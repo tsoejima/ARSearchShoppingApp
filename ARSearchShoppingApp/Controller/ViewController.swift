@@ -14,18 +14,65 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     @IBOutlet weak var returnTabButton: UINavigationItem!
     @IBOutlet var sceneView: ARSCNView!
     @IBOutlet weak var SliderView: UIView!
+    @IBOutlet weak var arDataView: UIView!
+    @IBOutlet weak var arDataViewBackground: UIView!
+    @IBOutlet weak var arDataViewDirection: UILabel!
+    @IBOutlet weak var arDataViewSize: UILabel!
+    
     var selectedNode: SCNNode?
     var xyz: float_t = 0.2
     var x: float_t = 0.2
     var y: float_t = 0.2
     var z: float_t = 0.2
+    var test: float_t = 0.0
     var isFirst = true
     var times = true
     var count = 0
+    var changePass:String = "Horizontal"
     let BoxNode = SCNNode()
+    @IBOutlet weak var arSizeSliderBar: UISlider!
     
+    @IBAction func arSizeSliderBarAction(_ sender: Any) {
+    }
+    
+    @IBAction func arDirectionChange(_ sender: Any) {
+        print("OKKK!")
+        if changePass == "Horizontal"{
+            changePass = "Vertical"
+            test = 0.2
+            arDataViewDirection.text = "高"
+        }else if changePass == "Vertical"{
+            changePass = "Height"
+            arDataViewDirection.text = "縦"
+        }else if changePass == "Height"{
+            changePass = "Horizontal"
+            arDataViewDirection.text = "横"
+        }
+    }
+    //ARSlider設定部分
+    @IBAction func SliderBar(_ sender: UISlider) {
+        if changePass == "Horizontal"{
+            arDataViewSize.text = String(x)
+            x = Float(sender.value)
+            BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+        }else if changePass == "Vertical"{
+            arDataViewSize.text = String(y)
+            y = Float(sender.value)
+            //BoxNode.position.y += 0.0000001
+                //abs(y - (y-0.0000001))
+            print("Z")
+            BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+        }else if changePass == "Height"{
+            arDataViewSize.text = String(z)
+            z = Float(sender.value)
+            BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        arDataView.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000)
+        arDataViewBackground.layer.cornerRadius = 17
         
         SliderView.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.600)
         
@@ -58,6 +105,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
 
         
     }
+    @IBOutlet weak var arSizeSlider: UIView!
     
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
             if viewController is arTabBarSettingViewController {

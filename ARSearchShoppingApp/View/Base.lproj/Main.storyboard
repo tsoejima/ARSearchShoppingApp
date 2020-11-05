@@ -764,16 +764,64 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Kn-w8-SVs">
                                 <rect key="frame" x="0.0" y="676.66666666666663" width="390" height="84.333333333333371"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WdS-20-IWn">
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="WdS-20-IWn">
                                         <rect key="frame" x="37" y="26.333333333333371" width="316" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="SliderBar:" destination="BV1-FR-VrT" eventType="valueChanged" id="pxR-Qn-syP"/>
+                                            <action selector="arSizeSliderBarAction:" destination="BV1-FR-VrT" eventType="valueChanged" id="kUD-g0-JvR"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNb-lP-h05">
-                                <rect key="frame" x="0.0" y="88" width="156" height="84.333333333333314"/>
+                                <rect key="frame" x="0.0" y="88" width="156" height="50.666666666666657"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rp-wp-bFR">
+                                        <rect key="frame" x="11.666666666666671" y="7.6666666666666714" width="132.66666666666663" height="35.333333333333336"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="縦" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSq-zO-UCf">
+                                                <rect key="frame" x="8" y="6.9999999999999982" width="18" height="21.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mS2-lb-E72">
+                                                <rect key="frame" x="31.000000000000004" y="6.9999999999999982" width="41.333333333333343" height="21.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APW-tN-H0e">
+                                                <rect key="frame" x="0.0" y="0.0" width="132.66666666666666" height="35.333333333333336"/>
+                                                <connections>
+                                                    <action selector="arDirectionChange:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Oky-4h-zM5"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="eSq-zO-UCf" secondAttribute="bottom" constant="7" id="3Ix-o1-uay"/>
+                                            <constraint firstAttribute="bottom" secondItem="mS2-lb-E72" secondAttribute="bottom" constant="7" id="3uD-y9-qhf"/>
+                                            <constraint firstItem="eSq-zO-UCf" firstAttribute="top" secondItem="3rp-wp-bFR" secondAttribute="top" constant="7" id="6fK-DM-QFa"/>
+                                            <constraint firstItem="APW-tN-H0e" firstAttribute="width" secondItem="3rp-wp-bFR" secondAttribute="width" multiplier="1.00251" id="9sD-7H-s9c"/>
+                                            <constraint firstItem="APW-tN-H0e" firstAttribute="centerY" secondItem="3rp-wp-bFR" secondAttribute="centerY" id="Bmk-Sh-19Y"/>
+                                            <constraint firstItem="eSq-zO-UCf" firstAttribute="leading" secondItem="3rp-wp-bFR" secondAttribute="leading" constant="8" id="M69-pf-WOp"/>
+                                            <constraint firstItem="APW-tN-H0e" firstAttribute="height" secondItem="3rp-wp-bFR" secondAttribute="height" multiplier="0.990566" id="WSU-bp-a61"/>
+                                            <constraint firstItem="APW-tN-H0e" firstAttribute="centerX" secondItem="3rp-wp-bFR" secondAttribute="centerX" id="aiX-bq-sP7"/>
+                                            <constraint firstItem="mS2-lb-E72" firstAttribute="top" secondItem="3rp-wp-bFR" secondAttribute="top" constant="7" id="psS-W2-Czk"/>
+                                            <constraint firstItem="mS2-lb-E72" firstAttribute="leading" secondItem="eSq-zO-UCf" secondAttribute="trailing" constant="5" id="tRa-px-xsh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="3rp-wp-bFR" firstAttribute="centerX" secondItem="uNb-lP-h05" secondAttribute="centerX" id="5V7-t8-4t8"/>
+                                    <constraint firstItem="3rp-wp-bFR" firstAttribute="centerY" secondItem="uNb-lP-h05" secondAttribute="centerY" id="R2Z-qI-9BP"/>
+                                    <constraint firstItem="3rp-wp-bFR" firstAttribute="width" secondItem="uNb-lP-h05" secondAttribute="width" multiplier="0.85" id="aYv-1R-YfY"/>
+                                    <constraint firstItem="3rp-wp-bFR" firstAttribute="height" secondItem="uNb-lP-h05" secondAttribute="height" multiplier="0.7" id="wm9-Gt-6kk"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
@@ -790,7 +838,7 @@
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="Qn4-LK-FnJ"/>
                             <constraint firstItem="uNb-lP-h05" firstAttribute="width" secondItem="U0K-SW-4ec" secondAttribute="width" multiplier="0.4" id="W8K-IA-F02"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="X2V-Kt-ViX"/>
-                            <constraint firstItem="uNb-lP-h05" firstAttribute="height" secondItem="U0K-SW-4ec" secondAttribute="height" multiplier="0.1" id="gah-ck-ZGe"/>
+                            <constraint firstItem="uNb-lP-h05" firstAttribute="height" secondItem="U0K-SW-4ec" secondAttribute="height" multiplier="0.06" id="gah-ck-ZGe"/>
                             <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="1Kn-w8-SVs" secondAttribute="bottom" id="pBz-5n-KHl"/>
                             <constraint firstItem="1Kn-w8-SVs" firstAttribute="height" secondItem="U0K-SW-4ec" secondAttribute="height" multiplier="0.1" id="pcv-Oc-cDD"/>
                         </constraints>
@@ -798,6 +846,12 @@
                     <navigationItem key="navigationItem" id="g9J-HC-oJF"/>
                     <connections>
                         <outlet property="SliderView" destination="1Kn-w8-SVs" id="SuQ-xs-2kQ"/>
+                        <outlet property="arDataView" destination="uNb-lP-h05" id="egF-s6-1XO"/>
+                        <outlet property="arDataViewBackground" destination="3rp-wp-bFR" id="BGS-xl-DNQ"/>
+                        <outlet property="arDataViewDirection" destination="eSq-zO-UCf" id="AL5-Lg-EyT"/>
+                        <outlet property="arDataViewSize" destination="mS2-lb-E72" id="7mq-lm-RAe"/>
+                        <outlet property="arSizeSlider" destination="1Kn-w8-SVs" id="p1l-dX-san"/>
+                        <outlet property="arSizeSliderBar" destination="WdS-20-IWn" id="d9A-ql-f7v"/>
                         <outlet property="returnTabButton" destination="g9J-HC-oJF" id="24h-rm-5QG"/>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
