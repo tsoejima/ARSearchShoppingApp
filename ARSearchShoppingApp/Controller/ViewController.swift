@@ -14,10 +14,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     @IBOutlet weak var returnTabButton: UINavigationItem!
     @IBOutlet var sceneView: ARSCNView!
     @IBOutlet weak var SliderView: UIView!
-    @IBOutlet weak var arDataView: UIView!
-    @IBOutlet weak var arDataViewBackground: UIView!
-    @IBOutlet weak var arDataViewDirection: UILabel!
-    @IBOutlet weak var arDataViewSize: UILabel!
     @IBOutlet weak var arControllerView: UIView!
     @IBOutlet weak var arControllerViewTop: UIView!
     @IBOutlet weak var arControllerViewBtm: UIView!
@@ -32,6 +28,18 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     @IBOutlet weak var ARCL3: UIView!
     @IBOutlet weak var ARCS3: UIView!
     
+    //ARSearchButton
+    @IBOutlet weak var searchButtonBackview: UIView!
+    @IBOutlet weak var searchButtonview: UIView!
+    
+    //ARStatusView
+    @IBOutlet weak var arStatusViewBackground: UIView!
+    @IBOutlet weak var ASVB1: UIView!
+    @IBOutlet weak var ASVB2: UIView!
+    @IBOutlet weak var ASVB3: UIView!
+    @IBOutlet weak var ASVBLabel1: UILabel!
+    @IBOutlet weak var ASVBLabel2: UILabel!
+    @IBOutlet weak var ASVBLabel3: UILabel!
     
     var selectedNode: SCNNode?
     var xyz: float_t = 0.2
@@ -66,9 +74,37 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        arDataView.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000)
-        arDataViewBackground.layer.cornerRadius = 17
         
+        //NavigationBar設定
+        navigationController?.navigationBar.isHidden = true
+        
+        //ARStatus設定
+        arStatusViewBackground.layer.cornerRadius = 10
+        arStatusViewBackground.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.950)
+        ASVB1.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ASVB2.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ASVB3.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        //ボタン設定
+        searchButtonBackview.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        //グラデーションレイヤーを作成
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.shadowOpacity = 0.6
+        gradientLayer.shadowOffset = CGSize(width: 0.0, height: 2.0)
+        gradientLayer.shadowRadius = 5
+        gradientLayer.shadowColor = UIColor.black.cgColor
+        gradientLayer.frame = self.searchButtonview.bounds
+        gradientLayer.cornerRadius = 31
+        //グラデーションカラーの選択
+        let color1 = UIColor(red: 0.000, green: 0.898, blue:1.000, alpha: 1.000).cgColor
+        let color2 = UIColor(red: 0.850, green: 1.000, blue:0.000, alpha: 1.000).cgColor
+        gradientLayer.colors = [color1, color2]
+        //グラデーションの方向を指定
+        gradientLayer.startPoint = CGPoint.init(x: 0, y: 0)
+        gradientLayer.endPoint = CGPoint.init(x: 1 , y: 1)
+        //グラデーションレイヤーの表示
+        self.searchButtonview.layer.insertSublayer(gradientLayer,at:0)
+        self.searchButtonview.layer.cornerRadius = 31
+        //スライダー設定
         arControllerView.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.950)
         arControllerViewBtm.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
         ARC1.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
@@ -80,6 +116,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
         ARCS2.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
         ARCS3.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
         
+        //ARController設定
         arControllerView.layer.cornerRadius = 20
         arControllerViewBtm.layer.cornerRadius = 20
         ARC1.layer.cornerRadius = 20
@@ -116,23 +153,26 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     }
     
     @IBAction func SliderV(_ sender: UISlider) {
-        y = Float(sender.value)
-        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+        x = Float(sender.value)
+        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
+        ASVBLabel1.text = String(x)
     }
     
     @IBAction func SliderH(_ sender: Any) {
     }
     
     @IBAction func SliderHoriz(_ sender: UISlider) {
-        x = Float(sender.value)
-        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+        y = Float(sender.value)
+        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
+        ASVBLabel2.text = String(y)
     }
     @IBAction func SliderHori(_ sender: Any) {
     }
     
     @IBAction func SliderHi(_ sender: UISlider) {
         z = Float(sender.value)
-        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
+        ASVBLabel3.text = String(z)
     }
     @IBAction func SliderVertical(_ sender: Any) {
     }
@@ -148,6 +188,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
             if viewController is arTabBarSettingViewController {
                 tabBarController?.tabBar.isHidden = false
+                navigationController.navigationBar.isHidden = false
                 print("OK!!!")
             }
         }

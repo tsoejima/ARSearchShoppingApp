@@ -31,6 +31,7 @@
 		DF92A795253FBE79005DCCBB /* setTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */; };
 		DF92A79D253FC0FF005DCCBB /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */; };
 		DFA6E408254174E200772BFC /* arTabBarSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6E407254174E200772BFC /* arTabBarSettingViewController.swift */; };
+		DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF33A02256546E400BC8404 /* SearchBtn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTabBarViewController.swift; sourceTree = "<group>"; };
 		DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		DFA6E407254174E200772BFC /* arTabBarSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arTabBarSettingViewController.swift; sourceTree = "<group>"; };
+		DFF33A02256546E400BC8404 /* SearchBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchBtn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			children = (
 				DF0106102541C4A0003A8AD2 /* homePR.jpeg */,
 				DF0105B42541B38D003A8AD2 /* Homeicon:Tab.png */,
+				DFF33A02256546E400BC8404 /* SearchBtn.png */,
 				DF0106152541CA8A003A8AD2 /* Topicon:n.png */,
 				DF0105B62541B38E003A8AD2 /* Searchicon:Tab.png */,
 				DF01061A2541CAFC003A8AD2 /* Topicon:nn.png */,
@@ -320,6 +323,7 @@
 				DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */,
 				DF0105AF2541B0D7003A8AD2 /* ARicon:Tab.png in Resources */,
 				DF92A746253DC392005DCCBB /* Main.storyboard in Resources */,
+				DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */,
 				DF5E6B982547AD1800401495 /* 1000×1000.png in Resources */,
 				DF0105B92541B38E003A8AD2 /* Settingicon:Tab.png in Resources */,
 				DF0105B82541B38E003A8AD2 /* Homeicon:Tab.png in Resources */,
