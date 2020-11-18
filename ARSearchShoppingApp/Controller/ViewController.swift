@@ -18,6 +18,20 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     @IBOutlet weak var arDataViewBackground: UIView!
     @IBOutlet weak var arDataViewDirection: UILabel!
     @IBOutlet weak var arDataViewSize: UILabel!
+    @IBOutlet weak var arControllerView: UIView!
+    @IBOutlet weak var arControllerViewTop: UIView!
+    @IBOutlet weak var arControllerViewBtm: UIView!
+    
+    //ARController
+    @IBOutlet weak var ARC1: UIView!
+    @IBOutlet weak var ARC2: UIView!
+    @IBOutlet weak var ARCL1: UIView!
+    @IBOutlet weak var ARCS1: UIView!
+    @IBOutlet weak var ARCL2: UIView!
+    @IBOutlet weak var ARCS2: UIView!
+    @IBOutlet weak var ARCL3: UIView!
+    @IBOutlet weak var ARCS3: UIView!
+    
     
     var selectedNode: SCNNode?
     var xyz: float_t = 0.2
@@ -30,12 +44,12 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     var count = 0
     var changePass:String = "Horizontal"
     let BoxNode = SCNNode()
-    @IBOutlet weak var arSizeSliderBar: UISlider!
+    /*@IBOutlet weak var arSizeSliderBar: UISlider!*/
     
-    @IBAction func arSizeSliderBarAction(_ sender: Any) {
-    }
+    /*@IBAction func arSizeSliderBarAction(_ sender: Any) {
+    }*/
     
-    @IBAction func arDirectionChange(_ sender: Any) {
+    /*@IBAction func arDirectionChange(_ sender: Any) {
         print("OKKK!")
         if changePass == "Horizontal"{
             changePass = "Vertical"
@@ -45,36 +59,31 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
             changePass = "Height"
             arDataViewDirection.text = "縦"
         }else if changePass == "Height"{
-            changePass = "Horizontal"
-            arDataViewDirection.text = "横"
-        }
-    }
-    //ARSlider設定部分
-    @IBAction func SliderBar(_ sender: UISlider) {
-        if changePass == "Horizontal"{
-            arDataViewSize.text = String(x)
-            x = Float(sender.value)
-            BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
-        }else if changePass == "Vertical"{
-            arDataViewSize.text = String(y)
-            y = Float(sender.value)
-            //BoxNode.position.y += 0.0000001
-                //abs(y - (y-0.0000001))
-            print("Z")
-            BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
-        }else if changePass == "Height"{
-            arDataViewSize.text = String(z)
-            z = Float(sender.value)
             BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
         }
-    }
+    }*/
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         arDataView.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000)
         arDataViewBackground.layer.cornerRadius = 17
         
-        SliderView.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.600)
+        arControllerView.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.950)
+        arControllerViewBtm.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ARC1.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ARC2.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ARCL1.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ARCL2.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ARCL3.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ARCS1.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ARCS2.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        ARCS3.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.000)
+        
+        arControllerView.layer.cornerRadius = 20
+        arControllerViewBtm.layer.cornerRadius = 20
+        ARC1.layer.cornerRadius = 20
+        ARC2.layer.cornerRadius = 20
         
         navigationController?.delegate = self
         //タブ非表示
@@ -105,6 +114,35 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
 
         
     }
+    
+    @IBAction func SliderV(_ sender: UISlider) {
+        y = Float(sender.value)
+        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+    }
+    
+    @IBAction func SliderH(_ sender: Any) {
+    }
+    
+    @IBAction func SliderHoriz(_ sender: UISlider) {
+        x = Float(sender.value)
+        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+    }
+    @IBAction func SliderHori(_ sender: Any) {
+    }
+    
+    @IBAction func SliderHi(_ sender: UISlider) {
+        z = Float(sender.value)
+        BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+    }
+    @IBAction func SliderVertical(_ sender: Any) {
+    }
+    
+    @IBAction func SliderHorizontal(_ sender: Any) {
+    }
+    
+    @IBAction func SliderHigh(_ sender: Any) {
+    }
+    
     @IBOutlet weak var arSizeSlider: UIView!
     
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
