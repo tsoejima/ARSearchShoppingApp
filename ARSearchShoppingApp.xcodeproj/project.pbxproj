@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD1EA98DFC469D10093D176 /* Pods_ARSearchShoppingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7594D7AAA6D48678113E44B4 /* Pods_ARSearchShoppingApp.framework */; };
+		3946B4341872D88AEBFAB700 /* Pods_ARSearchShoppingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CB4D80954F155F693CBAD2 /* Pods_ARSearchShoppingAppTests.framework */; };
+		BB54BF6242BF8DE999EC62ED /* Pods_ARSearchShoppingApp_ARSearchShoppingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551A4614E8EBED82FC1EB2BD /* Pods_ARSearchShoppingApp_ARSearchShoppingAppUITests.framework */; };
 		DF0105AF2541B0D7003A8AD2 /* ARicon:Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0105AE2541B0D6003A8AD2 /* ARicon:Tab.png */; };
 		DF0105B72541B38E003A8AD2 /* Staricon:Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0105B32541B38D003A8AD2 /* Staricon:Tab.png */; };
 		DF0105B82541B38E003A8AD2 /* Homeicon:Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0105B42541B38D003A8AD2 /* Homeicon:Tab.png */; };
@@ -31,6 +34,15 @@
 		DF92A795253FBE79005DCCBB /* setTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */; };
 		DF92A79D253FC0FF005DCCBB /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */; };
 		DFA6E408254174E200772BFC /* arTabBarSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6E407254174E200772BFC /* arTabBarSettingViewController.swift */; };
+		DFAF8997256A2E3200D2F147 /* ARHomeBackgraund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF8996256A2E3200D2F147 /* ARHomeBackgraund.jpg */; };
+		DFAF899C256A2F0600D2F147 /* ARHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF899B256A2F0600D2F147 /* ARHomeViewController.swift */; };
+		DFAF89A1256A3D9F00D2F147 /* kadenimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89A0256A3D9F00D2F147 /* kadenimage.jpg */; };
+		DFAF89A6256A3DA500D2F147 /* interiorimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89A5256A3DA500D2F147 /* interiorimage.jpg */; };
+		DFAF89AB256A3EF300D2F147 /* CategoryChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF89AA256A3EF300D2F147 /* CategoryChoiceViewController.swift */; };
+		DFAF89B1256A491900D2F147 /* KadenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF89AF256A491900D2F147 /* KadenCollectionViewCell.swift */; };
+		DFAF89B2256A491900D2F147 /* KadenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89B0256A491900D2F147 /* KadenCollectionViewCell.xib */; };
+		DFAF89B7256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF89B6256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift */; };
+		DFAF89CC256A691100D2F147 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89CB256A691100D2F147 /* GoogleService-Info.plist */; };
 		DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF33A02256546E400BC8404 /* SearchBtn.png */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +64,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E2D71AE3FD49BFA6C6E5D2 /* Pods-ARSearchShoppingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp.release.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp.release.xcconfig"; sourceTree = "<group>"; };
+		265A708E42EA24C94D78FFEF /* Pods-ARSearchShoppingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingAppTests/Pods-ARSearchShoppingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B54938BE16E702F249A9AD1 /* Pods-ARSearchShoppingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingAppTests.release.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingAppTests/Pods-ARSearchShoppingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		551A4614E8EBED82FC1EB2BD /* Pods_ARSearchShoppingApp_ARSearchShoppingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARSearchShoppingApp_ARSearchShoppingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7594D7AAA6D48678113E44B4 /* Pods_ARSearchShoppingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARSearchShoppingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16E23F209C350EEE8D48E72 /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5CB4D80954F155F693CBAD2 /* Pods_ARSearchShoppingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARSearchShoppingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0105AE2541B0D6003A8AD2 /* ARicon:Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARicon:Tab.png"; sourceTree = "<group>"; };
 		DF0105B32541B38D003A8AD2 /* Staricon:Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Staricon:Tab.png"; sourceTree = "<group>"; };
 		DF0105B42541B38D003A8AD2 /* Homeicon:Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Homeicon:Tab.png"; sourceTree = "<group>"; };
@@ -82,7 +101,18 @@
 		DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTabBarViewController.swift; sourceTree = "<group>"; };
 		DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		DFA6E407254174E200772BFC /* arTabBarSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arTabBarSettingViewController.swift; sourceTree = "<group>"; };
+		DFAF8996256A2E3200D2F147 /* ARHomeBackgraund.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ARHomeBackgraund.jpg; sourceTree = "<group>"; };
+		DFAF899B256A2F0600D2F147 /* ARHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHomeViewController.swift; sourceTree = "<group>"; };
+		DFAF89A0256A3D9F00D2F147 /* kadenimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kadenimage.jpg; sourceTree = "<group>"; };
+		DFAF89A5256A3DA500D2F147 /* interiorimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = interiorimage.jpg; sourceTree = "<group>"; };
+		DFAF89AA256A3EF300D2F147 /* CategoryChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryChoiceViewController.swift; sourceTree = "<group>"; };
+		DFAF89AF256A491900D2F147 /* KadenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KadenCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFAF89B0256A491900D2F147 /* KadenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KadenCollectionViewCell.xib; sourceTree = "<group>"; };
+		DFAF89B6256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKadenCategoryChoiceViewController.swift; sourceTree = "<group>"; };
+		DFAF89CB256A691100D2F147 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DFF33A02256546E400BC8404 /* SearchBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchBtn.png; sourceTree = "<group>"; };
+		F1251BAB0BFDC3C0ABA26AAE /* Pods-ARSearchShoppingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F93D376299CF119778C8D5FF /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD1EA98DFC469D10093D176 /* Pods_ARSearchShoppingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3946B4341872D88AEBFAB700 /* Pods_ARSearchShoppingAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,19 +136,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB54BF6242BF8DE999EC62ED /* Pods_ARSearchShoppingApp_ARSearchShoppingAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9573F5D0DF53759BED688BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7594D7AAA6D48678113E44B4 /* Pods_ARSearchShoppingApp.framework */,
+				551A4614E8EBED82FC1EB2BD /* Pods_ARSearchShoppingApp_ARSearchShoppingAppUITests.framework */,
+				A5CB4D80954F155F693CBAD2 /* Pods_ARSearchShoppingAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF92A732253DC392005DCCBB = {
 			isa = PBXGroup;
 			children = (
 				DF92A73D253DC392005DCCBB /* ARSearchShoppingApp */,
-				DF92A754253DC392005DCCBB /* ARSearchShoppingAppTests */,
 				DF92A75F253DC392005DCCBB /* ARSearchShoppingAppUITests */,
 				DF92A73C253DC392005DCCBB /* Products */,
+				E656738CAF5F8A86F7B472B3 /* Pods */,
+				9573F5D0DF53759BED688BB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +177,8 @@
 		DF92A73D253DC392005DCCBB /* ARSearchShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				DFAF89CB256A691100D2F147 /* GoogleService-Info.plist */,
+				DF92A754253DC392005DCCBB /* ARSearchShoppingAppTests */,
 				DF92A773253DC3EC005DCCBB /* Controller */,
 				DF92A771253DC3EC005DCCBB /* Model */,
 				DF92A772253DC3EC005DCCBB /* View */,
@@ -177,6 +223,8 @@
 				DF92A744253DC392005DCCBB /* Main.storyboard */,
 				DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */,
 				DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */,
+				DFAF89AF256A491900D2F147 /* KadenCollectionViewCell.swift */,
+				DFAF89B0256A491900D2F147 /* KadenCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +235,9 @@
 				DF92A742253DC392005DCCBB /* ViewController.swift */,
 				DF92A777253DCB09005DCCBB /* HomeViewController.swift */,
 				DFA6E407254174E200772BFC /* arTabBarSettingViewController.swift */,
+				DFAF899B256A2F0600D2F147 /* ARHomeViewController.swift */,
+				DFAF89AA256A3EF300D2F147 /* CategoryChoiceViewController.swift */,
+				DFAF89B6256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,9 +250,12 @@
 				DFF33A02256546E400BC8404 /* SearchBtn.png */,
 				DF0106152541CA8A003A8AD2 /* Topicon:n.png */,
 				DF0105B62541B38E003A8AD2 /* Searchicon:Tab.png */,
+				DFAF89A5256A3DA500D2F147 /* interiorimage.jpg */,
+				DFAF89A0256A3D9F00D2F147 /* kadenimage.jpg */,
 				DF01061A2541CAFC003A8AD2 /* Topicon:nn.png */,
 				DF01061F2541CD6D003A8AD2 /* Topicon:nnn.png */,
 				DF0105B52541B38E003A8AD2 /* Settingicon:Tab.png */,
+				DFAF8996256A2E3200D2F147 /* ARHomeBackgraund.jpg */,
 				DF5E6B972547AD1800401495 /* 1000×1000.png */,
 				DF0105B32541B38D003A8AD2 /* Staricon:Tab.png */,
 				DF01060B2541BD2F003A8AD2 /* TopiconNavigationBarTitle.png */,
@@ -211,6 +265,19 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		E656738CAF5F8A86F7B472B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1251BAB0BFDC3C0ABA26AAE /* Pods-ARSearchShoppingApp.debug.xcconfig */,
+				06E2D71AE3FD49BFA6C6E5D2 /* Pods-ARSearchShoppingApp.release.xcconfig */,
+				F93D376299CF119778C8D5FF /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig */,
+				A16E23F209C350EEE8D48E72 /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.release.xcconfig */,
+				265A708E42EA24C94D78FFEF /* Pods-ARSearchShoppingAppTests.debug.xcconfig */,
+				4B54938BE16E702F249A9AD1 /* Pods-ARSearchShoppingAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF92A765253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingApp" */;
 			buildPhases = (
+				27C62CC295DC9DA1374A0A95 /* [CP] Check Pods Manifest.lock */,
 				DF92A737253DC392005DCCBB /* Sources */,
 				DF92A738253DC392005DCCBB /* Frameworks */,
 				DF92A739253DC392005DCCBB /* Resources */,
+				E112B6C28B6ADB19765853D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF92A768253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingAppTests" */;
 			buildPhases = (
+				38C13E7B5B60D8E62D02938D /* [CP] Check Pods Manifest.lock */,
 				DF92A74D253DC392005DCCBB /* Sources */,
 				DF92A74E253DC392005DCCBB /* Frameworks */,
 				DF92A74F253DC392005DCCBB /* Resources */,
@@ -253,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF92A76B253DC392005DCCBB /* Build configuration list for PBXNativeTarget "ARSearchShoppingAppUITests" */;
 			buildPhases = (
+				373C7948BC5E1F5C369F107B /* [CP] Check Pods Manifest.lock */,
 				DF92A758253DC392005DCCBB /* Sources */,
 				DF92A759253DC392005DCCBB /* Frameworks */,
 				DF92A75A253DC392005DCCBB /* Resources */,
+				8ADB029782EADA27225605AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,8 +389,10 @@
 				DF92A741253DC392005DCCBB /* art.scnassets in Resources */,
 				DF01061B2541CAFC003A8AD2 /* Topicon:nn.png in Resources */,
 				DF0105BA2541B38E003A8AD2 /* Searchicon:Tab.png in Resources */,
+				DFAF89A1256A3D9F00D2F147 /* kadenimage.jpg in Resources */,
 				DF0106202541CD6D003A8AD2 /* Topicon:nnn.png in Resources */,
 				DF0106112541C4A0003A8AD2 /* homePR.jpeg in Resources */,
+				DFAF89B2256A491900D2F147 /* KadenCollectionViewCell.xib in Resources */,
 				DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */,
 				DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */,
 				DF0105AF2541B0D7003A8AD2 /* ARicon:Tab.png in Resources */,
@@ -327,10 +401,13 @@
 				DF5E6B982547AD1800401495 /* 1000×1000.png in Resources */,
 				DF0105B92541B38E003A8AD2 /* Settingicon:Tab.png in Resources */,
 				DF0105B82541B38E003A8AD2 /* Homeicon:Tab.png in Resources */,
+				DFAF8997256A2E3200D2F147 /* ARHomeBackgraund.jpg in Resources */,
 				DF01060C2541BD2F003A8AD2 /* TopiconNavigationBarTitle.png in Resources */,
 				DF92A77E253DE835005DCCBB /* Noimage-6.jpg in Resources */,
 				DF0105B72541B38E003A8AD2 /* Staricon:Tab.png in Resources */,
+				DFAF89CC256A691100D2F147 /* GoogleService-Info.plist in Resources */,
 				DF0106162541CA8A003A8AD2 /* Topicon:n.png in Resources */,
+				DFAF89A6256A3DA500D2F147 /* interiorimage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,14 +427,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27C62CC295DC9DA1374A0A95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARSearchShoppingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		373C7948BC5E1F5C369F107B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C13E7B5B60D8E62D02938D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARSearchShoppingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ADB029782EADA27225605AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E112B6C28B6ADB19765853D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF92A737253DC392005DCCBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DFA6E408254174E200772BFC /* arTabBarSettingViewController.swift in Sources */,
+				DFAF89AB256A3EF300D2F147 /* CategoryChoiceViewController.swift in Sources */,
 				DF92A743253DC392005DCCBB /* ViewController.swift in Sources */,
 				DF92A73F253DC392005DCCBB /* AppDelegate.swift in Sources */,
+				DFAF89B1256A491900D2F147 /* KadenCollectionViewCell.swift in Sources */,
+				DFAF899C256A2F0600D2F147 /* ARHomeViewController.swift in Sources */,
+				DFAF89B7256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift in Sources */,
 				DF92A778253DCB09005DCCBB /* HomeViewController.swift in Sources */,
 				DF92A79D253FC0FF005DCCBB /* NavigationViewController.swift in Sources */,
 				DF92A795253FBE79005DCCBB /* setTabBarViewController.swift in Sources */,
@@ -533,6 +717,7 @@
 		};
 		DF92A766253DC392005DCCBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1251BAB0BFDC3C0ABA26AAE /* Pods-ARSearchShoppingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -552,6 +737,7 @@
 		};
 		DF92A767253DC392005DCCBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E2D71AE3FD49BFA6C6E5D2 /* Pods-ARSearchShoppingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -571,6 +757,7 @@
 		};
 		DF92A769253DC392005DCCBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265A708E42EA24C94D78FFEF /* Pods-ARSearchShoppingAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -593,6 +780,7 @@
 		};
 		DF92A76A253DC392005DCCBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B54938BE16E702F249A9AD1 /* Pods-ARSearchShoppingAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -615,6 +803,7 @@
 		};
 		DF92A76C253DC392005DCCBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93D376299CF119778C8D5FF /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,6 +824,7 @@
 		};
 		DF92A76D253DC392005DCCBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16E23F209C350EEE8D48E72 /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
