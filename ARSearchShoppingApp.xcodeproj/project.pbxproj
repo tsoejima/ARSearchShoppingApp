@@ -43,6 +43,15 @@
 		DFAF89B2256A491900D2F147 /* KadenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89B0256A491900D2F147 /* KadenCollectionViewCell.xib */; };
 		DFAF89B7256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF89B6256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift */; };
 		DFAF89CC256A691100D2F147 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89CB256A691100D2F147 /* GoogleService-Info.plist */; };
+		DFAF89D1256AAF3B00D2F147 /* KadenChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF89D0256AAF3B00D2F147 /* KadenChoiceViewController.swift */; };
+		DFAF89D6256AB2C400D2F147 /* Washingmachine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89D5256AB2C400D2F147 /* Washingmachine.jpg */; };
+		DFAF89DB256ABAE200D2F147 /* TVimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89DA256ABAE200D2F147 /* TVimage.jpg */; };
+		DFAF89E0256ABC9100D2F147 /* TVbackimage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89DF256ABC9100D2F147 /* TVbackimage.jpeg */; };
+		DFAF89E5256AC21E00D2F147 /* AirPurifier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89E4256AC21E00D2F147 /* AirPurifier.jpg */; };
+		DFAF89EA256AC30500D2F147 /* heater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89E9256AC30500D2F147 /* heater.jpg */; };
+		DFAF89F1256AC6C800D2F147 /* refrigerator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89EE256AC6C700D2F147 /* refrigerator.jpg */; };
+		DFAF89F2256AC6C800D2F147 /* raice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89EF256AC6C800D2F147 /* raice.jpg */; };
+		DFAF89F3256AC6C800D2F147 /* MicroWave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89F0256AC6C800D2F147 /* MicroWave.jpg */; };
 		DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF33A02256546E400BC8404 /* SearchBtn.png */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +119,15 @@
 		DFAF89B0256A491900D2F147 /* KadenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KadenCollectionViewCell.xib; sourceTree = "<group>"; };
 		DFAF89B6256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKadenCategoryChoiceViewController.swift; sourceTree = "<group>"; };
 		DFAF89CB256A691100D2F147 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFAF89D0256AAF3B00D2F147 /* KadenChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KadenChoiceViewController.swift; sourceTree = "<group>"; };
+		DFAF89D5256AB2C400D2F147 /* Washingmachine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Washingmachine.jpg; sourceTree = "<group>"; };
+		DFAF89DA256ABAE200D2F147 /* TVimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TVimage.jpg; sourceTree = "<group>"; };
+		DFAF89DF256ABC9100D2F147 /* TVbackimage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TVbackimage.jpeg; sourceTree = "<group>"; };
+		DFAF89E4256AC21E00D2F147 /* AirPurifier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AirPurifier.jpg; sourceTree = "<group>"; };
+		DFAF89E9256AC30500D2F147 /* heater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heater.jpg; sourceTree = "<group>"; };
+		DFAF89EE256AC6C700D2F147 /* refrigerator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refrigerator.jpg; sourceTree = "<group>"; };
+		DFAF89EF256AC6C800D2F147 /* raice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = raice.jpg; sourceTree = "<group>"; };
+		DFAF89F0256AC6C800D2F147 /* MicroWave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MicroWave.jpg; sourceTree = "<group>"; };
 		DFF33A02256546E400BC8404 /* SearchBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchBtn.png; sourceTree = "<group>"; };
 		F1251BAB0BFDC3C0ABA26AAE /* Pods-ARSearchShoppingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F93D376299CF119778C8D5FF /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -223,6 +241,7 @@
 				DF92A744253DC392005DCCBB /* Main.storyboard */,
 				DF92A794253FBE79005DCCBB /* setTabBarViewController.swift */,
 				DF92A79C253FC0FF005DCCBB /* NavigationViewController.swift */,
+				DFAF89E9256AC30500D2F147 /* heater.jpg */,
 				DFAF89AF256A491900D2F147 /* KadenCollectionViewCell.swift */,
 				DFAF89B0256A491900D2F147 /* KadenCollectionViewCell.xib */,
 			);
@@ -238,6 +257,7 @@
 				DFAF899B256A2F0600D2F147 /* ARHomeViewController.swift */,
 				DFAF89AA256A3EF300D2F147 /* CategoryChoiceViewController.swift */,
 				DFAF89B6256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift */,
+				DFAF89D0256AAF3B00D2F147 /* KadenChoiceViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,12 +265,19 @@
 		DF92A77C253DE7E1005DCCBB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				DFAF89E4256AC21E00D2F147 /* AirPurifier.jpg */,
 				DF0106102541C4A0003A8AD2 /* homePR.jpeg */,
 				DF0105B42541B38D003A8AD2 /* Homeicon:Tab.png */,
+				DFAF89DA256ABAE200D2F147 /* TVimage.jpg */,
+				DFAF89D5256AB2C400D2F147 /* Washingmachine.jpg */,
 				DFF33A02256546E400BC8404 /* SearchBtn.png */,
+				DFAF89F0256AC6C800D2F147 /* MicroWave.jpg */,
+				DFAF89EF256AC6C800D2F147 /* raice.jpg */,
+				DFAF89EE256AC6C700D2F147 /* refrigerator.jpg */,
 				DF0106152541CA8A003A8AD2 /* Topicon:n.png */,
 				DF0105B62541B38E003A8AD2 /* Searchicon:Tab.png */,
 				DFAF89A5256A3DA500D2F147 /* interiorimage.jpg */,
+				DFAF89DF256ABC9100D2F147 /* TVbackimage.jpeg */,
 				DFAF89A0256A3D9F00D2F147 /* kadenimage.jpg */,
 				DF01061A2541CAFC003A8AD2 /* Topicon:nn.png */,
 				DF01061F2541CD6D003A8AD2 /* Topicon:nnn.png */,
@@ -388,11 +415,15 @@
 			files = (
 				DF92A741253DC392005DCCBB /* art.scnassets in Resources */,
 				DF01061B2541CAFC003A8AD2 /* Topicon:nn.png in Resources */,
+				DFAF89EA256AC30500D2F147 /* heater.jpg in Resources */,
 				DF0105BA2541B38E003A8AD2 /* Searchicon:Tab.png in Resources */,
 				DFAF89A1256A3D9F00D2F147 /* kadenimage.jpg in Resources */,
 				DF0106202541CD6D003A8AD2 /* Topicon:nnn.png in Resources */,
+				DFAF89D6256AB2C400D2F147 /* Washingmachine.jpg in Resources */,
 				DF0106112541C4A0003A8AD2 /* homePR.jpeg in Resources */,
 				DFAF89B2256A491900D2F147 /* KadenCollectionViewCell.xib in Resources */,
+				DFAF89F2256AC6C800D2F147 /* raice.jpg in Resources */,
+				DFAF89E5256AC21E00D2F147 /* AirPurifier.jpg in Resources */,
 				DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */,
 				DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */,
 				DF0105AF2541B0D7003A8AD2 /* ARicon:Tab.png in Resources */,
@@ -400,6 +431,8 @@
 				DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */,
 				DF5E6B982547AD1800401495 /* 1000×1000.png in Resources */,
 				DF0105B92541B38E003A8AD2 /* Settingicon:Tab.png in Resources */,
+				DFAF89DB256ABAE200D2F147 /* TVimage.jpg in Resources */,
+				DFAF89F3256AC6C800D2F147 /* MicroWave.jpg in Resources */,
 				DF0105B82541B38E003A8AD2 /* Homeicon:Tab.png in Resources */,
 				DFAF8997256A2E3200D2F147 /* ARHomeBackgraund.jpg in Resources */,
 				DF01060C2541BD2F003A8AD2 /* TopiconNavigationBarTitle.png in Resources */,
@@ -407,7 +440,9 @@
 				DF0105B72541B38E003A8AD2 /* Staricon:Tab.png in Resources */,
 				DFAF89CC256A691100D2F147 /* GoogleService-Info.plist in Resources */,
 				DF0106162541CA8A003A8AD2 /* Topicon:n.png in Resources */,
+				DFAF89E0256ABC9100D2F147 /* TVbackimage.jpeg in Resources */,
 				DFAF89A6256A3DA500D2F147 /* interiorimage.jpg in Resources */,
+				DFAF89F1256AC6C800D2F147 /* refrigerator.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +580,7 @@
 				DF92A778253DCB09005DCCBB /* HomeViewController.swift in Sources */,
 				DF92A79D253FC0FF005DCCBB /* NavigationViewController.swift in Sources */,
 				DF92A795253FBE79005DCCBB /* setTabBarViewController.swift in Sources */,
+				DFAF89D1256AAF3B00D2F147 /* KadenChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

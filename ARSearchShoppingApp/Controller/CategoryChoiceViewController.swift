@@ -56,16 +56,7 @@ class CategoryChoiceViewController: UIViewController {
     }
     
     @IBAction func kadenbutton(_ sender: Any) {
-        db.collection("MicroWaveData").whereField("itemSizeX", isLessThanOrEqualTo: "300")
-            .getDocuments() { (querySnapshot, err) in
-                if let err = err {
-                    print("Error getting documents: \(err)")
-                } else {
-                    for document in querySnapshot!.documents {
-                    print("\(document.documentID) => \(document.data())")
-                    }
-                }
-            }
+        
     }
     @IBAction func interiorbutton(_ sender: Any) {
         db.collection("MicroWaveData").whereField("itemSizeX", isEqualTo: "165")

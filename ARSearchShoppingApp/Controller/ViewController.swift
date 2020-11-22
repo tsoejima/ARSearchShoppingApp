@@ -95,8 +95,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
         gradientLayer.frame = self.searchButtonview.bounds
         gradientLayer.cornerRadius = 31
         //グラデーションカラーの選択
-        let color1 = UIColor(red: 0.000, green: 0.898, blue:1.000, alpha: 1.000).cgColor
-        let color2 = UIColor(red: 0.850, green: 1.000, blue:0.000, alpha: 1.000).cgColor
+        let color1 = UIColor(red: 0.521, green: 0.552, blue:1.000, alpha: 1.000).cgColor
+        let color2 = UIColor(red: 0.800, green: 0.996, blue:1.000, alpha: 1.000).cgColor
         gradientLayer.colors = [color1, color2]
         //グラデーションの方向を指定
         gradientLayer.startPoint = CGPoint.init(x: 0, y: 0)
