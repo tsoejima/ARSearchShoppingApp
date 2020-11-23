@@ -2878,6 +2878,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="eMw-ji-eqi"/>
                     <connections>
+                        <outlet property="ContentView" destination="1wc-qo-xk1" id="f81-bZ-Eo0"/>
+                        <outlet property="IT1" destination="CFy-Ib-8AL" id="c4d-7O-MTi"/>
+                        <outlet property="IT10" destination="Mc8-pS-oGF" id="xGn-mb-Sjh"/>
+                        <outlet property="IT2" destination="Tri-7B-MT8" id="cY8-yB-UPu"/>
+                        <outlet property="IT3" destination="rW9-Gi-7Tq" id="WI4-cU-8SH"/>
+                        <outlet property="IT4" destination="XlS-6j-1hk" id="6wb-7b-IFe"/>
+                        <outlet property="IT5" destination="NFE-Bc-BZR" id="Qa2-j4-V0F"/>
+                        <outlet property="IT6" destination="RKv-2v-acR" id="c0n-3M-zaG"/>
+                        <outlet property="IT7" destination="s79-Ah-3hr" id="XxK-Gk-cjW"/>
+                        <outlet property="IT8" destination="Ih8-Bh-k8F" id="DT5-bc-2hx"/>
+                        <outlet property="IT9" destination="NHc-au-6Vc" id="nZH-LV-Kf7"/>
                         <outlet property="ITEXL1" destination="2CZ-jk-Vxi" id="PUz-ER-Oqy"/>
                         <outlet property="ITEXL10" destination="ZKz-ll-3uy" id="yuh-FA-EM7"/>
                         <outlet property="ITEXL2" destination="phb-RG-Pul" id="cX0-iH-tvN"/>
@@ -2888,6 +2899,7 @@
                         <outlet property="ITEXL7" destination="hjr-Fb-rVr" id="VaT-jN-b8g"/>
                         <outlet property="ITEXL8" destination="CWM-tX-mLo" id="gqL-BA-hqO"/>
                         <outlet property="ITEXL9" destination="ecA-Cp-p1a" id="ehg-xA-rJo"/>
+                        <outlet property="ITM" destination="rqS-4k-ZuT" id="HuD-bM-XwX"/>
                         <outlet property="ITMKL1" destination="RJv-QX-Br1" id="a2p-vN-gLV"/>
                         <outlet property="ITMKL10" destination="QXU-lr-znd" id="Ved-4w-TK9"/>
                         <outlet property="ITMKL2" destination="NUI-an-AGT" id="0Le-hq-UwU"/>
@@ -2948,6 +2960,7 @@
                         <outlet property="ITSZL7" destination="CL2-0O-0dT" id="OlQ-tJ-hG7"/>
                         <outlet property="ITSZL8" destination="STD-X7-Wd3" id="tbk-4z-b9m"/>
                         <outlet property="ITSZL9" destination="NQe-d9-IAs" id="F06-Ii-36N"/>
+                        <outlet property="ScrollView" destination="ExL-Uq-DCW" id="C21-Yc-DNF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="opW-IC-FeQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

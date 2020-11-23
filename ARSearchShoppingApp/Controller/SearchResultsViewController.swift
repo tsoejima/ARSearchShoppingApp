@@ -11,6 +11,21 @@ import FirebaseFirestore
 
 class SearchResultsViewController: UIViewController {
     
+    //IT
+    @IBOutlet weak var IT1: UIView!
+    @IBOutlet weak var IT2: UIView!
+    @IBOutlet weak var IT3: UIView!
+    @IBOutlet weak var IT4: UIView!
+    @IBOutlet weak var IT5: UIView!
+    @IBOutlet weak var IT6: UIView!
+    @IBOutlet weak var IT7: UIView!
+    @IBOutlet weak var IT8: UIView!
+    @IBOutlet weak var IT9: UIView!
+    @IBOutlet weak var IT10: UIView!
+    @IBOutlet var ITM: UIView!
+    @IBOutlet weak var ContentView: UIView!
+    @IBOutlet weak var ScrollView: UIScrollView!
+    
     //ITSVB1
     @IBOutlet weak var ITSVB1: UIView!
     @IBOutlet weak var ITSVB2: UIView!
@@ -114,7 +129,31 @@ class SearchResultsViewController: UIViewController {
         
         print(SelectCategory!)
         print(xSize!)
+        //IT設定
+        IT1.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT2.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT3.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT4.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT5.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT6.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT7.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT8.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT9.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        IT10.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        ScrollView.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
+        ContentView.layer.backgroundColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 0.000).cgColor
         
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.ITM.bounds
+        //グラデーションカラーの選択
+        let color1 = UIColor(red: 0.521, green: 0.552, blue:1.000, alpha: 1.000).cgColor
+        let color2 = UIColor(red: 0.800, green: 0.996, blue:1.000, alpha: 1.000).cgColor
+        gradientLayer.colors = [color1, color2]
+        //グラデーションの方向を指定
+        gradientLayer.startPoint = CGPoint.init(x: 0, y: 0)
+        gradientLayer.endPoint = CGPoint.init(x: 1 , y: 1)
+        //グラデーションレイヤーの表示
+        self.ITM.layer.insertSublayer(gradientLayer,at:0)
         //ITSVB設定
         ITSVB1.layer.cornerRadius = 20
         ITSVIM1.layer.cornerRadius = 20
