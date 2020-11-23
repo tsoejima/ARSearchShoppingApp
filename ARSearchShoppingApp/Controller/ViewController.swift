@@ -40,6 +40,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     @IBOutlet weak var ASVBLabel1: UILabel!
     @IBOutlet weak var ASVBLabel2: UILabel!
     @IBOutlet weak var ASVBLabel3: UILabel!
+    @IBOutlet weak var itemcategoryLabel: UILabel!
     
     var selectedNode: SCNNode?
     var xyz: float_t = 0.2
@@ -52,6 +53,9 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     var count = 0
     var changePass:String = "Horizontal"
     let BoxNode = SCNNode()
+    
+    var itemcategory:String?
+    
     /*@IBOutlet weak var arSizeSliderBar: UISlider!*/
     
     /*@IBAction func arSizeSliderBarAction(_ sender: Any) {
@@ -74,6 +78,9 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        itemcategoryLabel.text = itemcategory
+        print(itemcategory)
         
         //NavigationBar設定
         navigationController?.navigationBar.isHidden = true
@@ -251,6 +258,16 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
                 sceneView.session.add(anchor: anchor)
             }
         }
+    
+    @IBAction func goSearchButton(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "SearchResults") as! SearchResultsViewController
+        next.SelectCategory = itemcategory
+        let xmSize:Float = x * 100
+        next.xSize = Int(xmSize)
+        self.present(next, animated: true)
+    }
+    
 
     // MARK: - ARSCNViewDelegate
     

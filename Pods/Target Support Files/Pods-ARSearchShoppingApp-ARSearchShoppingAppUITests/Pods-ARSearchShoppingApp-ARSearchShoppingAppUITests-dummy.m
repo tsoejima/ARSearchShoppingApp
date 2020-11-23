@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ARSearchShoppingApp_ARSearchShoppingAppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ARSearchShoppingApp_ARSearchShoppingAppUITests
+@end

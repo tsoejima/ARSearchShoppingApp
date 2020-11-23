@@ -35,6 +35,8 @@ class KadenChoiceViewController: UIViewController {
     @IBOutlet weak var ASTLK2: UITextField!
     @IBOutlet weak var ASTLK3: UITextField!
     
+    var itemChoiceCategory:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -129,32 +131,53 @@ class KadenChoiceViewController: UIViewController {
     }
     
     @IBAction func ASButton1(_ sender: Any) {
-        performSegue(withIdentifier: "toARSize", sender: nil)
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "WashingMachine"
+        self.present(next, animated: true)
     }
-    
     @IBAction func ASButton2(_ sender: Any) {
-        performSegue(withIdentifier: "toARSize", sender: nil)
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "Television"
+        self.present(next, animated: true)
     }
     
     @IBAction func ASButton3(_ sender: Any) {
-        performSegue(withIdentifier: "toARSize", sender: nil)
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "AirPurifier"
+        self.present(next, animated: true)
     }
     
     @IBAction func ASButton4(_ sender: Any) {
-        performSegue(withIdentifier: "toARSize", sender: nil)
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "Heater"
+        self.present(next, animated: true)
     }
     
     @IBAction func ASButtonK1(_ sender: Any) {
-        performSegue(withIdentifier: "toARSize", sender: nil)
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "Refrigerator"
+        self.present(next, animated: true)
     }
     
     @IBAction func ASButtonK2(_ sender: Any) {
-        performSegue(withIdentifier: "toARSize", sender: nil)
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "MicroWaveData"
+        self.present(next, animated: true)
     }
     
     @IBAction func ASButtonK3(_ sender: Any) {
-        performSegue(withIdentifier: "toARSize", sender: nil)
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "RiceCooker"
+        self.present(next, animated: true)
     }
+    
     /*
     // MARK: - Navigation
 
