@@ -1653,7 +1653,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aUs-Su-BkO">
                                                 <rect key="frame" x="52.666666666666657" y="3.6666666666666288" width="298.66666666666674" height="54.666666666666664"/>
                                                 <subviews>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="agc-ec-dfe">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="agc-ec-dfe">
                                                         <rect key="frame" x="13" y="12.333333333333371" width="272.66666666666669" height="31"/>
                                                         <connections>
                                                             <action selector="SliderV:" destination="BV1-FR-VrT" eventType="valueChanged" id="QEp-T6-DCi"/>
@@ -1703,7 +1703,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bjo-q2-YKN">
                                                 <rect key="frame" x="52.666666666666657" y="3.6666666666666288" width="298.66666666666674" height="54.333333333333336"/>
                                                 <subviews>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gVx-Lf-2Rp">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="gVx-Lf-2Rp">
                                                         <rect key="frame" x="13" y="12" width="273" height="31"/>
                                                         <connections>
                                                             <action selector="SliderH:" destination="BV1-FR-VrT" eventType="valueChanged" id="W4N-wB-i8p"/>
@@ -1755,7 +1755,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5GT-xL-zhh">
                                                 <rect key="frame" x="52.666666666666657" y="3.6666666666666288" width="298.66666666666674" height="54.666666666666664"/>
                                                 <subviews>
-                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="LAv-Wp-QaY">
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="LAv-Wp-QaY">
                                                         <rect key="frame" x="13" y="12.333333333333371" width="273" height="31"/>
                                                         <connections>
                                                             <action selector="SliderHi:" destination="BV1-FR-VrT" eventType="valueChanged" id="73F-JD-yV1"/>
@@ -1860,7 +1860,7 @@
                                                     <constraint firstAttribute="width" constant="1" id="n4p-Be-WXB"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0.0000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcw-1D-yoR">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="200mm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcw-1D-yoR">
                                                 <rect key="frame" x="27.999999999999993" y="10.666666666666664" width="86.333333333333314" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -1891,7 +1891,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0.0000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Io-zO-OzM">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="200mm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Io-zO-OzM">
                                                 <rect key="frame" x="26.999999999999993" y="5.9999999999999982" width="87.333333333333314" height="30.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -1926,7 +1926,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0.0000000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnS-AZ-Ha2">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="200mm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnS-AZ-Ha2">
                                                 <rect key="frame" x="26.999999999999993" y="5.9999999999999982" width="88.333333333333314" height="30.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -1964,7 +1964,7 @@
                                     <constraint firstItem="6hl-R0-1ZE" firstAttribute="top" secondItem="E3S-rV-QNb" secondAttribute="top" id="yYH-vN-KIj"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0M-KM-0Va">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0M-KM-0Va">
                                 <rect key="frame" x="174" y="369" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>

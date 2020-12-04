@@ -133,27 +133,27 @@ class KadenChoiceViewController: UIViewController {
     @IBAction func ASButton1(_ sender: Any) {
         let storyboard = self.storyboard!
         let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
-        next.itemcategory = "WashingMachine"
+        next.itemcategory = "WashingMachineData"
         self.present(next, animated: true)
     }
     @IBAction func ASButton2(_ sender: Any) {
         let storyboard = self.storyboard!
         let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
-        next.itemcategory = "Television"
+        next.itemcategory = "TVData"
         self.present(next, animated: true)
     }
     
     @IBAction func ASButton3(_ sender: Any) {
         let storyboard = self.storyboard!
         let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
-        next.itemcategory = "AirPurifier"
+        next.itemcategory = "AirCleanerData"
         self.present(next, animated: true)
     }
     
     @IBAction func ASButton4(_ sender: Any) {
         let storyboard = self.storyboard!
         let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
-        next.itemcategory = "Heater"
+        next.itemcategory = "HeaterData"
         self.present(next, animated: true)
     }
     
@@ -174,7 +174,7 @@ class KadenChoiceViewController: UIViewController {
     @IBAction func ASButtonK3(_ sender: Any) {
         let storyboard = self.storyboard!
         let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
-        next.itemcategory = "RiceCooker"
+        next.itemcategory = "RiceCookerData"
         self.present(next, animated: true)
     }
     

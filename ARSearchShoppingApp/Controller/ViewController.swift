@@ -8,6 +8,7 @@
 import UIKit
 import SceneKit
 import ARKit
+import Lottie
 
 class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControllerDelegate {
 
@@ -56,6 +57,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     
     var itemcategory:String?
     
+    let material = SCNMaterial()
+    
     /*@IBOutlet weak var arSizeSliderBar: UISlider!*/
     
     /*@IBAction func arSizeSliderBarAction(_ sender: Any) {
@@ -78,6 +81,12 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+            startLoading()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            self.stopLoading()
+        }
         
         itemcategoryLabel.text = itemcategory
         print(itemcategory)
@@ -159,10 +168,33 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
         
     }
     
+    lazy var loadingView: AnimationView = {
+            let animationView = AnimationView(name: "TapAnimation")
+            animationView.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+            animationView.center = self.view.center
+            animationView.loopMode = .loop
+            animationView.contentMode = .scaleAspectFit
+            animationView.animationSpeed = 1
+
+            return animationView
+        }()
+        // 好きなタイミングでこれを呼ぶとアニメーションが始まる.
+        func startLoading() {
+            view.addSubview(loadingView)
+            loadingView.play()
+        }
+
+        // 好きなタイミングでこれを呼ぶとアニメーションのViewが消える.
+        func stopLoading() {
+            loadingView.removeFromSuperview()
+        }
+    
     @IBAction func SliderV(_ sender: UISlider) {
         x = Float(sender.value)
         BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
-        ASVBLabel1.text = String(x)
+        self.material.diffuse.contents = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 0.950)
+        self.BoxNode.geometry?.materials = [self.material]
+        ASVBLabel1.text = String(Int(Float(x * 1000))) + "mm"
     }
     
     @IBAction func SliderH(_ sender: Any) {
@@ -171,7 +203,9 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     @IBAction func SliderHoriz(_ sender: UISlider) {
         y = Float(sender.value)
         BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
-        ASVBLabel2.text = String(y)
+        self.material.diffuse.contents = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 0.950)
+        self.BoxNode.geometry?.materials = [self.material]
+        ASVBLabel2.text = String(Int(Float(y * 1000))) + "mm"
     }
     @IBAction func SliderHori(_ sender: Any) {
     }
@@ -179,7 +213,9 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     @IBAction func SliderHi(_ sender: UISlider) {
         z = Float(sender.value)
         BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
-        ASVBLabel3.text = String(z)
+        self.material.diffuse.contents = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 0.950)
+        self.BoxNode.geometry?.materials = [self.material]
+        ASVBLabel3.text = String(Int(Float(z * 1000))) + "mm"
     }
     @IBAction func SliderVertical(_ sender: Any) {
     }
@@ -238,6 +274,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
                 }
                 else if self.isFirst == false && self.times == true && self.count == 2{
                     self.BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
+                    self.material.diffuse.contents = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 0.950)
+                    self.BoxNode.geometry?.materials = [self.material]
                     //self.BoxNode.position.y += Float(0.05)
                     self.BoxNode.rotation = SCNVector4(0, 1, 0, 0)
                     node.addChildNode(self.BoxNode)
@@ -250,7 +288,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
             // タップされた位置のARアンカーを探す
             let tapLocation = sender.location(in: sceneView)
             let hitTest = sceneView.hitTest(tapLocation, types: .existingPlaneUsingExtent)
-
+            
             // タップした箇所が取得できていればアンカーを追加
             if !hitTest.isEmpty {
                 count = 2
@@ -263,7 +301,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
         let storyboard = self.storyboard!
         let next = storyboard.instantiateViewController(withIdentifier: "SearchResults") as! SearchResultsViewController
         next.SelectCategory = itemcategory
-        let xmSize:Float = x * 100
+        let xmSize:Float = x * 1000
         next.xSize = Int(xmSize)
         self.present(next, animated: true)
     }
