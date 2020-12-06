@@ -160,7 +160,7 @@ class KadenChoiceViewController: UIViewController {
     @IBAction func ASButtonK1(_ sender: Any) {
         let storyboard = self.storyboard!
         let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
-        next.itemcategory = "Refrigerator"
+        next.itemcategory = "RefrigeratorData"
         self.present(next, animated: true)
     }
     

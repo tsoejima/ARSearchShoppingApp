@@ -55,6 +55,10 @@
 		DFAF89F3256AC6C800D2F147 /* MicroWave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAF89F0256AC6C800D2F147 /* MicroWave.jpg */; };
 		DFAF89F8256B7EAD00D2F147 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF89F7256B7EAD00D2F147 /* SearchResultsViewController.swift */; };
 		DFAF8A18256C11E500D2F147 /* ARAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = DFAF8A17256C11E500D2F147 /* ARAnimation.json */; };
+		DFE6370D257CCFBC0025C544 /* WinCellar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6370C257CCFBC0025C544 /* WinCellar.jpg */; };
+		DFE63712257CD3C70025C544 /* CoffeMaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63711257CD3C70025C544 /* CoffeMaker.jpg */; };
+		DFE63717257CD4250025C544 /* kashituki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63716257CD4250025C544 /* kashituki.jpg */; };
+		DFE6371C257CD4B50025C544 /* wineceller1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6371B257CD4B50025C544 /* wineceller1.jpg */; };
 		DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF33A02256546E400BC8404 /* SearchBtn.png */; };
 /* End PBXBuildFile section */
 
@@ -134,6 +138,10 @@
 		DFAF89F0256AC6C800D2F147 /* MicroWave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MicroWave.jpg; sourceTree = "<group>"; };
 		DFAF89F7256B7EAD00D2F147 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		DFAF8A17256C11E500D2F147 /* ARAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ARAnimation.json; sourceTree = "<group>"; };
+		DFE6370C257CCFBC0025C544 /* WinCellar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WinCellar.jpg; sourceTree = "<group>"; };
+		DFE63711257CD3C70025C544 /* CoffeMaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CoffeMaker.jpg; sourceTree = "<group>"; };
+		DFE63716257CD4250025C544 /* kashituki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kashituki.jpg; sourceTree = "<group>"; };
+		DFE6371B257CD4B50025C544 /* wineceller1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wineceller1.jpg; sourceTree = "<group>"; };
 		DFF33A02256546E400BC8404 /* SearchBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchBtn.png; sourceTree = "<group>"; };
 		F1251BAB0BFDC3C0ABA26AAE /* Pods-ARSearchShoppingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F93D376299CF119778C8D5FF /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -273,9 +281,13 @@
 		DF92A77C253DE7E1005DCCBB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				DFE63711257CD3C70025C544 /* CoffeMaker.jpg */,
+				DFE6370C257CCFBC0025C544 /* WinCellar.jpg */,
+				DFE6371B257CD4B50025C544 /* wineceller1.jpg */,
 				DFAF89E4256AC21E00D2F147 /* AirPurifier.jpg */,
 				DF0106102541C4A0003A8AD2 /* homePR.jpeg */,
 				DF0105B42541B38D003A8AD2 /* Homeicon:Tab.png */,
+				DFE63716257CD4250025C544 /* kashituki.jpg */,
 				DFAF89DA256ABAE200D2F147 /* TVimage.jpg */,
 				DFAF89D5256AB2C400D2F147 /* Washingmachine.jpg */,
 				DFF33A02256546E400BC8404 /* SearchBtn.png */,
@@ -431,8 +443,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF92A741253DC392005DCCBB /* art.scnassets in Resources */,
+				DFE6370D257CCFBC0025C544 /* WinCellar.jpg in Resources */,
 				DF01061B2541CAFC003A8AD2 /* Topicon:nn.png in Resources */,
 				DFAF89EA256AC30500D2F147 /* heater.jpg in Resources */,
+				DFE63717257CD4250025C544 /* kashituki.jpg in Resources */,
 				DF0105BA2541B38E003A8AD2 /* Searchicon:Tab.png in Resources */,
 				DFAF89A1256A3D9F00D2F147 /* kadenimage.jpg in Resources */,
 				DF0106202541CD6D003A8AD2 /* Topicon:nnn.png in Resources */,
@@ -449,9 +463,11 @@
 				DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */,
 				DF5E6B982547AD1800401495 /* 1000×1000.png in Resources */,
 				DF0105B92541B38E003A8AD2 /* Settingicon:Tab.png in Resources */,
+				DFE63712257CD3C70025C544 /* CoffeMaker.jpg in Resources */,
 				DFAF89DB256ABAE200D2F147 /* TVimage.jpg in Resources */,
 				DFAF89F3256AC6C800D2F147 /* MicroWave.jpg in Resources */,
 				DF0105B82541B38E003A8AD2 /* Homeicon:Tab.png in Resources */,
+				DFE6371C257CD4B50025C544 /* wineceller1.jpg in Resources */,
 				DFAF8997256A2E3200D2F147 /* ARHomeBackgraund.jpg in Resources */,
 				DF01060C2541BD2F003A8AD2 /* TopiconNavigationBarTitle.png in Resources */,
 				DF92A77E253DE835005DCCBB /* Noimage-6.jpg in Resources */,
