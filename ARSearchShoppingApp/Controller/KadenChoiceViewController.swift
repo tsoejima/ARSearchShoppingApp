@@ -18,6 +18,9 @@ class KadenChoiceViewController: UIViewController {
     @IBOutlet weak var ASBCK1: UIView!
     @IBOutlet weak var ASBCK2: UIView!
     @IBOutlet weak var ASBCK3: UIView!
+    @IBOutlet weak var ASBCS1: UIView!
+    @IBOutlet weak var ASBCS2: UIView!
+    @IBOutlet weak var ASBCS3: UIView!
     
     @IBOutlet weak var ASMG1: UIImageView!
     @IBOutlet weak var ASMG2: UIImageView!
@@ -26,6 +29,9 @@ class KadenChoiceViewController: UIViewController {
     @IBOutlet weak var ASMGK1: UIImageView!
     @IBOutlet weak var ASMGK2: UIImageView!
     @IBOutlet weak var ASMGK3: UIImageView!
+    @IBOutlet weak var ASMGS1: UIImageView!
+    @IBOutlet weak var ASMGS2: UIImageView!
+    @IBOutlet weak var ASMGS3: UIImageView!
     
     @IBOutlet weak var ASTL1: UITextField!
     @IBOutlet weak var ASTL2: UITextField!
@@ -34,6 +40,9 @@ class KadenChoiceViewController: UIViewController {
     @IBOutlet weak var ASTLK1: UITextField!
     @IBOutlet weak var ASTLK2: UITextField!
     @IBOutlet weak var ASTLK3: UITextField!
+    @IBOutlet weak var ASTLS1: UITextField!
+    @IBOutlet weak var ASTLS2: UITextField!
+    @IBOutlet weak var ASTLS3: UITextField!
     
     var itemChoiceCategory:String?
     
@@ -127,6 +136,35 @@ class KadenChoiceViewController: UIViewController {
         ASBCK3.layer.shadowColor = UIColor.systemGray.cgColor
         ASBCK3.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
         
+        ASBCS1.layer.cornerRadius = 15
+        ASMGS1.layer.cornerRadius = 15
+        ASTLS1.layer.cornerRadius = 18
+        ASTLS1.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMaxXMinYCorner]
+        ASTLS1.layer.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.900).cgColor
+        ASBCS1.layer.shadowOpacity = 0.5
+        ASBCS1.layer.shadowRadius = 0.1
+        ASBCS1.layer.shadowColor = UIColor.systemGray.cgColor
+        ASBCS1.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
+        
+        ASBCS2.layer.cornerRadius = 15
+        ASMGS2.layer.cornerRadius = 15
+        ASTLS2.layer.cornerRadius = 18
+        ASTLS2.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMaxXMinYCorner]
+        ASTLS2.layer.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.900).cgColor
+        ASBCS2.layer.shadowOpacity = 0.5
+        ASBCS2.layer.shadowRadius = 0.1
+        ASBCS2.layer.shadowColor = UIColor.systemGray.cgColor
+        ASBCS2.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
+        
+        ASBCS3.layer.cornerRadius = 15
+        ASMGS3.layer.cornerRadius = 15
+        ASTLS3.layer.cornerRadius = 18
+        ASTLS3.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMaxXMinYCorner]
+        ASTLS3.layer.backgroundColor = UIColor(red: 1.000, green: 1.000, blue:1.000, alpha: 0.900).cgColor
+        ASBCS3.layer.shadowOpacity = 0.5
+        ASBCS3.layer.shadowRadius = 0.1
+        ASBCS3.layer.shadowColor = UIColor.systemGray.cgColor
+        ASBCS3.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
         
     }
     
@@ -178,6 +216,26 @@ class KadenChoiceViewController: UIViewController {
         self.present(next, animated: true)
     }
     
+    @IBAction func ASButtonS1(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "WineCellarData"
+        self.present(next, animated: true)
+    }
+    
+    @IBAction func ASButtonS2(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "CoffeeMakerData"
+        self.present(next, animated: true)
+    }
+    
+    @IBAction func ASButtonS3(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "ARViewController") as! ViewController
+        next.itemcategory = "HumidifierData"
+        self.present(next, animated: true)
+    }
     /*
     // MARK: - Navigation
 

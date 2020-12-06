@@ -89,7 +89,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
         }
         
         itemcategoryLabel.text = itemcategory
-        print(itemcategory)
+        print(itemcategory ?? "")
         
         //NavigationBar設定
         navigationController?.navigationBar.isHidden = true

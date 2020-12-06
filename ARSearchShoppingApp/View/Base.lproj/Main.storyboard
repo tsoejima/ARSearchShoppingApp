@@ -1427,8 +1427,8 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lj2-4a-n7c">
                                                         <rect key="frame" x="0.0" y="0.0" width="390" height="81.333333333333329"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="キッチン家電" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilv-ai-7ZL">
-                                                                <rect key="frame" x="20" y="19.666666666666629" width="212" height="42"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="その他家電" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilv-ai-7ZL">
+                                                                <rect key="frame" x="20" y="19.666666666666629" width="176.66666666666666" height="42"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                 <nil key="textColor"/>
                                                                 <color key="highlightedColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1483,6 +1483,9 @@
                                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cme-YK-P1c">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                                 <state key="normal" title="Button"/>
+                                                                                                <connections>
+                                                                                                    <action selector="ASButtonS1:" destination="Oj7-UO-4GA" eventType="touchUpInside" id="5JJ-OT-C44"/>
+                                                                                                </connections>
                                                                                             </button>
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1527,6 +1530,9 @@
                                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJV-UB-Uhj">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                                 <state key="normal" title="Button"/>
+                                                                                                <connections>
+                                                                                                    <action selector="ASButtonS2:" destination="Oj7-UO-4GA" eventType="touchUpInside" id="wJU-tC-g81"/>
+                                                                                                </connections>
                                                                                             </button>
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1571,6 +1577,9 @@
                                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8W-nz-Lb4">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                                 <state key="normal" title="Button"/>
+                                                                                                <connections>
+                                                                                                    <action selector="ASButtonS3:" destination="Oj7-UO-4GA" eventType="touchUpInside" id="EXm-ZU-wZF"/>
+                                                                                                </connections>
                                                                                             </button>
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1646,12 +1655,31 @@
                                                     <constraint firstAttribute="trailing" secondItem="yZ0-mW-9Tj" secondAttribute="trailing" id="siS-Gp-PIs"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="75T-kJ-L1F">
+                                                <rect key="frame" x="0.0" y="1085" width="390" height="215"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1000×1000.png" translatesAutoresizingMaskIntoConstraints="NO" id="oyr-gS-Ae6">
+                                                        <rect key="frame" x="78" y="43" width="234" height="129"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="oyr-gS-Ae6" firstAttribute="centerY" secondItem="75T-kJ-L1F" secondAttribute="centerY" id="bLG-NO-l59"/>
+                                                    <constraint firstItem="oyr-gS-Ae6" firstAttribute="centerX" secondItem="75T-kJ-L1F" secondAttribute="centerX" id="fRg-aX-lze"/>
+                                                    <constraint firstItem="oyr-gS-Ae6" firstAttribute="width" secondItem="75T-kJ-L1F" secondAttribute="width" multiplier="0.6" id="i0L-Ra-vq8"/>
+                                                    <constraint firstItem="oyr-gS-Ae6" firstAttribute="height" secondItem="75T-kJ-L1F" secondAttribute="height" multiplier="0.6" id="yvg-HM-Xcu"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                                         <constraints>
                                             <constraint firstItem="IEj-0R-cgE" firstAttribute="height" secondItem="9Zn-8o-AqL" secondAttribute="height" multiplier="0.25" id="0ys-Rj-Pcy"/>
                                             <constraint firstAttribute="trailing" secondItem="8bv-8b-Fef" secondAttribute="trailing" id="51k-F3-i35"/>
+                                            <constraint firstAttribute="trailing" secondItem="75T-kJ-L1F" secondAttribute="trailing" id="8L2-um-9OV"/>
+                                            <constraint firstItem="75T-kJ-L1F" firstAttribute="leading" secondItem="9Zn-8o-AqL" secondAttribute="leading" id="8eK-cz-gMg"/>
+                                            <constraint firstAttribute="bottom" secondItem="75T-kJ-L1F" secondAttribute="bottom" id="9VM-Vo-Pg5"/>
                                             <constraint firstItem="IEj-0R-cgE" firstAttribute="top" secondItem="8bv-8b-Fef" secondAttribute="bottom" constant="10" id="EDl-S0-lI4"/>
+                                            <constraint firstItem="75T-kJ-L1F" firstAttribute="top" secondItem="IEj-0R-cgE" secondAttribute="bottom" constant="10" id="GdM-2v-V1p"/>
                                             <constraint firstItem="dAr-kH-MxY" firstAttribute="leading" secondItem="9Zn-8o-AqL" secondAttribute="leading" id="P7P-Ky-TwL"/>
                                             <constraint firstAttribute="height" constant="1300" id="R0P-Ag-Pd8"/>
                                             <constraint firstItem="8bv-8b-Fef" firstAttribute="leading" secondItem="9Zn-8o-AqL" secondAttribute="leading" id="SBo-gR-69O"/>
@@ -1713,6 +1741,9 @@
                         <outlet property="ASBCK1" destination="XhK-s1-oTk" id="b18-ED-BTi"/>
                         <outlet property="ASBCK2" destination="FWs-hm-w32" id="IwN-NO-es8"/>
                         <outlet property="ASBCK3" destination="Q8e-NX-DMb" id="so6-Ah-eKJ"/>
+                        <outlet property="ASBCS1" destination="3ZI-tx-TFj" id="em6-vr-EdB"/>
+                        <outlet property="ASBCS2" destination="g8n-Eh-wWR" id="Ktn-by-pTY"/>
+                        <outlet property="ASBCS3" destination="Uoh-Fo-k8P" id="eHC-qC-iai"/>
                         <outlet property="ASMG1" destination="0Ku-Dg-Hvq" id="ehq-Rz-kZL"/>
                         <outlet property="ASMG2" destination="6xY-sc-Ujh" id="7il-Y7-lcW"/>
                         <outlet property="ASMG3" destination="Ph6-pw-YN5" id="aKt-QF-WmS"/>
@@ -1720,6 +1751,9 @@
                         <outlet property="ASMGK1" destination="OPs-3D-GiF" id="VXp-Dz-Jug"/>
                         <outlet property="ASMGK2" destination="t61-l4-0gd" id="DpR-is-0FR"/>
                         <outlet property="ASMGK3" destination="yEb-3q-xKq" id="nLo-F4-cxu"/>
+                        <outlet property="ASMGS1" destination="Ssg-2A-l5s" id="YdG-t9-M7p"/>
+                        <outlet property="ASMGS2" destination="BDX-Iv-kkY" id="mYD-IB-D6r"/>
+                        <outlet property="ASMGS3" destination="IQG-jf-V1J" id="BJw-8B-mw5"/>
                         <outlet property="ASTL1" destination="Zkh-Ug-QeG" id="ahB-y4-cvu"/>
                         <outlet property="ASTL2" destination="o4T-sT-6Oe" id="YfE-1t-RkF"/>
                         <outlet property="ASTL3" destination="NaU-gc-XIg" id="J1U-n5-1pa"/>
@@ -1727,6 +1761,9 @@
                         <outlet property="ASTLK1" destination="P7E-PR-aUW" id="qJR-ng-uua"/>
                         <outlet property="ASTLK2" destination="h7r-IG-K3F" id="JAm-2T-bxh"/>
                         <outlet property="ASTLK3" destination="nuf-rO-hq3" id="6Qc-rl-zoO"/>
+                        <outlet property="ASTLS1" destination="gbl-Xy-dBk" id="Umi-5r-rZ3"/>
+                        <outlet property="ASTLS2" destination="1sC-eI-hli" id="OMV-gR-PUv"/>
+                        <outlet property="ASTLS3" destination="ot9-i3-e7h" id="jNU-J4-0eT"/>
                         <outlet property="TopTitleView" destination="6yH-mg-RNS" id="IXP-zl-8Wa"/>
                         <segue destination="BV1-FR-VrT" kind="show" identifier="toARSize" id="M1X-c6-PNn"/>
                     </connections>

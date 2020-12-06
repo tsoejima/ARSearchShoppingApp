@@ -59,6 +59,7 @@
 		DFE63712257CD3C70025C544 /* CoffeMaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63711257CD3C70025C544 /* CoffeMaker.jpg */; };
 		DFE63717257CD4250025C544 /* kashituki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63716257CD4250025C544 /* kashituki.jpg */; };
 		DFE6371C257CD4B50025C544 /* wineceller1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6371B257CD4B50025C544 /* wineceller1.jpg */; };
+		DFE63721257CE3F00025C544 /* InteriorChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE63720257CE3F00025C544 /* InteriorChoiceViewController.swift */; };
 		DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF33A02256546E400BC8404 /* SearchBtn.png */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +143,7 @@
 		DFE63711257CD3C70025C544 /* CoffeMaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CoffeMaker.jpg; sourceTree = "<group>"; };
 		DFE63716257CD4250025C544 /* kashituki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kashituki.jpg; sourceTree = "<group>"; };
 		DFE6371B257CD4B50025C544 /* wineceller1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wineceller1.jpg; sourceTree = "<group>"; };
+		DFE63720257CE3F00025C544 /* InteriorChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorChoiceViewController.swift; sourceTree = "<group>"; };
 		DFF33A02256546E400BC8404 /* SearchBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchBtn.png; sourceTree = "<group>"; };
 		F1251BAB0BFDC3C0ABA26AAE /* Pods-ARSearchShoppingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F93D376299CF119778C8D5FF /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 				DFAF89B6256A4B9C00D2F147 /* ARKadenCategoryChoiceViewController.swift */,
 				DFAF89D0256AAF3B00D2F147 /* KadenChoiceViewController.swift */,
 				DFAF89F7256B7EAD00D2F147 /* SearchResultsViewController.swift */,
+				DFE63720257CE3F00025C544 /* InteriorChoiceViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -608,6 +611,7 @@
 				DFA6E408254174E200772BFC /* arTabBarSettingViewController.swift in Sources */,
 				DFAF89F8256B7EAD00D2F147 /* SearchResultsViewController.swift in Sources */,
 				DFAF89AB256A3EF300D2F147 /* CategoryChoiceViewController.swift in Sources */,
+				DFE63721257CE3F00025C544 /* InteriorChoiceViewController.swift in Sources */,
 				DF92A743253DC392005DCCBB /* ViewController.swift in Sources */,
 				DF92A73F253DC392005DCCBB /* AppDelegate.swift in Sources */,
 				DFAF89B1256A491900D2F147 /* KadenCollectionViewCell.swift in Sources */,
