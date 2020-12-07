@@ -59,7 +59,7 @@ class CategoryChoiceViewController: UIViewController {
         
     }
     @IBAction func interiorbutton(_ sender: Any) {
-        db.collection("MicroWaveData").whereField("itemSizeX", isEqualTo: "165")
+       /* db.collection("MicroWaveData").whereField("itemSizeX", isEqualTo: "165")
             .getDocuments() { (querySnapshot, err) in
                 if let err = err {
                     print("Error getting documents: \(err)")
@@ -68,7 +68,7 @@ class CategoryChoiceViewController: UIViewController {
                         print("\(document.documentID) => \(document.data())")
                     }
                 }
-        }
+        }*/
     }
     
 
