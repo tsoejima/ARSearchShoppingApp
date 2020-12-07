@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 import Firebase
 import FirebaseFirestore
 
@@ -110,6 +111,31 @@ class SearchResultsViewController: UIViewController {
     @IBOutlet weak var ITOVL9: UITextView!
     @IBOutlet weak var ITOVL10: UITextView!
     
+    //RelocationButtonSetting
+    @IBOutlet weak var RBS1: UIButton!
+    @IBOutlet weak var RBS2: UIButton!
+    @IBOutlet weak var RBS3: UIButton!
+    @IBOutlet weak var RBS4: UIButton!
+    @IBOutlet weak var RBS5: UIButton!
+    @IBOutlet weak var RBS6: UIButton!
+    @IBOutlet weak var RBS7: UIButton!
+    @IBOutlet weak var RBS8: UIButton!
+    @IBOutlet weak var RBS9: UIButton!
+    @IBOutlet weak var RBS10: UIButton!
+    
+    //DetailButtonSetting
+    @IBOutlet weak var DBS1: UIButton!
+    @IBOutlet weak var DBS2: UIButton!
+    @IBOutlet weak var DBS3: UIButton!
+    @IBOutlet weak var DBS4: UIButton!
+    @IBOutlet weak var DBS5: UIButton!
+    @IBOutlet weak var DBS6: UIButton!
+    @IBOutlet weak var DBS7: UIButton!
+    @IBOutlet weak var DBS8: UIButton!
+    @IBOutlet weak var DBS9: UIButton!
+    @IBOutlet weak var DBS10: UIButton!
+    
+    
     
     var SelectCategory:String?
     var xSize:Int?
@@ -122,6 +148,7 @@ class SearchResultsViewController: UIViewController {
     var itemSizeYArray:[String] = []
     var itemSizeZArray:[String] = []
     var itemExplanationArray:[String] = []
+    var itemIdArray:[String] = []
     
 
     override func viewDidLoad() {
@@ -162,6 +189,12 @@ class SearchResultsViewController: UIViewController {
         ITSVB1.layer.shadowRadius = 10
         ITSVB1.layer.shadowColor = UIColor.systemGray.cgColor
         ITSVB1.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS1.layer.cornerRadius = 10
+        DBS1.layer.cornerRadius = 10
+        RBS1.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS1.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS1.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS1.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         ITSVB2.layer.cornerRadius = 20
         ITSVIM2.layer.cornerRadius = 20
@@ -170,6 +203,12 @@ class SearchResultsViewController: UIViewController {
         ITSVB2.layer.shadowRadius = 10
         ITSVB2.layer.shadowColor = UIColor.systemGray.cgColor
         ITSVB2.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS2.layer.cornerRadius = 10
+        DBS2.layer.cornerRadius = 10
+        RBS2.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS2.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS2.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS2.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         ITSVB3.layer.cornerRadius = 20
         ITSVIM3.layer.cornerRadius = 20
@@ -178,6 +217,13 @@ class SearchResultsViewController: UIViewController {
         ITSVB3.layer.shadowRadius = 10
         ITSVB3.layer.shadowColor = UIColor.systemGray.cgColor
         ITSVB3.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS3.layer.cornerRadius = 10
+        DBS3.layer.cornerRadius = 10
+        RBS3.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS3.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS3.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS3.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        
         
         ITSVB4.layer.cornerRadius = 20
         ITSVIM4.layer.cornerRadius = 20
@@ -186,6 +232,12 @@ class SearchResultsViewController: UIViewController {
         ITSVB4.layer.shadowRadius = 10
         ITSVB4.layer.shadowColor = UIColor.systemGray.cgColor
         ITSVB4.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS4.layer.cornerRadius = 10
+        DBS4.layer.cornerRadius = 10
+        RBS4.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS4.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS4.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS4.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         ITSVB5.layer.cornerRadius = 20
         ITSVIM5.layer.cornerRadius = 20
@@ -194,6 +246,12 @@ class SearchResultsViewController: UIViewController {
         ITSVB5.layer.shadowRadius = 10
         ITSVB5.layer.shadowColor = UIColor.systemGray.cgColor
         ITSVB5.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS5.layer.cornerRadius = 10
+        DBS5.layer.cornerRadius = 10
+        RBS5.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS5.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS5.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS5.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         ITSVB6.layer.cornerRadius = 20
         ITSVIM6.layer.cornerRadius = 20
@@ -202,6 +260,12 @@ class SearchResultsViewController: UIViewController {
         ITSVB6.layer.shadowRadius = 10
         ITSVB6.layer.shadowColor = UIColor.systemGray.cgColor
         ITSVB6.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS6.layer.cornerRadius = 10
+        DBS6.layer.cornerRadius = 10
+        RBS6.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS6.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS6.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS6.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         ITSBV7.layer.cornerRadius = 20
         ITSVIM7.layer.cornerRadius = 20
@@ -210,6 +274,12 @@ class SearchResultsViewController: UIViewController {
         ITSBV7.layer.shadowRadius = 10
         ITSBV7.layer.shadowColor = UIColor.systemGray.cgColor
         ITSBV7.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS7.layer.cornerRadius = 10
+        DBS7.layer.cornerRadius = 10
+        RBS7.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS7.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS7.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS7.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         ITSBV8.layer.cornerRadius = 20
         ITSVIM8.layer.cornerRadius = 20
@@ -218,6 +288,12 @@ class SearchResultsViewController: UIViewController {
         ITSBV8.layer.shadowRadius = 10
         ITSBV8.layer.shadowColor = UIColor.systemGray.cgColor
         ITSBV8.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS8.layer.cornerRadius = 10
+        DBS8.layer.cornerRadius = 10
+        RBS8.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS8.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS8.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS8.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         ITSBV9.layer.cornerRadius = 20
         ITSVIM9.layer.cornerRadius = 20
@@ -226,6 +302,12 @@ class SearchResultsViewController: UIViewController {
         ITSBV9.layer.shadowRadius = 10
         ITSBV9.layer.shadowColor = UIColor.systemGray.cgColor
         ITSBV9.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS9.layer.cornerRadius = 10
+        DBS9.layer.cornerRadius = 10
+        RBS9.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS9.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS9.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS9.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         ITSVB10.layer.cornerRadius = 20
         ITSVIM10.layer.cornerRadius = 20
@@ -234,6 +316,12 @@ class SearchResultsViewController: UIViewController {
         ITSVB10.layer.shadowRadius = 10
         ITSVB10.layer.shadowColor = UIColor.systemGray.cgColor
         ITSVB10.layer.shadowOffset = CGSize(width: -5.0, height: 2.0)
+        RBS10.layer.cornerRadius = 10
+        DBS10.layer.cornerRadius = 10
+        RBS10.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        DBS10.layer.backgroundColor = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 1.000).cgColor
+        RBS10.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
+        DBS10.tintColor = UIColor(red: 0.000, green: 0.000, blue:0.000, alpha: 1.000)
         
         //表示設定
         
@@ -254,6 +342,7 @@ class SearchResultsViewController: UIViewController {
                         self.itemSizeYArray.append((document["itemSizeY"] as? String)!)
                         self.itemSizeZArray.append((document["itemSizeZ"] as? String)!)
                         self.itemExplanationArray.append((document["itemExplanation"] as? String)!)
+                        self.itemIdArray.append((document["itemId"] as? String)!)
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                     }
@@ -340,6 +429,138 @@ class SearchResultsViewController: UIViewController {
                 }
         }
         
+    }
+    //RelocationButtonSetting
+    @IBAction func RButtonS1(_ sender: Any) {
+    }
+    @IBAction func RButtonS2(_ sender: Any) {
+    }
+    @IBAction func RButtonS3(_ sender: Any) {
+    }
+    @IBAction func RButtonS4(_ sender: Any) {
+    }
+    @IBAction func RButtonS5(_ sender: Any) {
+    }
+    @IBAction func RButtonS6(_ sender: Any) {
+    }
+    @IBAction func RButtonS7(_ sender: Any) {
+    }
+    @IBAction func RButtonS8(_ sender: Any) {
+    }
+    @IBAction func RButtonS9(_ sender: Any) {
+    }
+    @IBAction func RButtonS10(_ sender: Any) {
+    }
+    //DetailButtonSetting
+    @IBAction func DButtonS1(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[0])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[0])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS2(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[1])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[1])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS3(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[2])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[2])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS4(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[3])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[3])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS5(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[4])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[4])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS6(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[5])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[5])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS7(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[6])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[6])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS8(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[7])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[7])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS9(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[8])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[8])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
+    }
+    @IBAction func DButtonS10(_ sender: Any) {
+        if itemMakerArray[0] == ""{
+            let webPage = "https://www.nitori-net.jp/ec/product/\(self.itemIdArray[9])"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }else{
+            let webPage = "https://www.biccamera.com/bc/item/\(self.itemIdArray[9])/"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            present(safariVC, animated: true, completion: nil)
+        }
     }
     
     
