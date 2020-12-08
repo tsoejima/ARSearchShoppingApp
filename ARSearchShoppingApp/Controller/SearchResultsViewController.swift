@@ -432,24 +432,84 @@ class SearchResultsViewController: UIViewController {
     }
     //RelocationButtonSetting
     @IBAction func RButtonS1(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[0]
+        next.itemSizeY = itemSizeYArray[0]
+        next.itemSizeZ = itemSizeZArray[0]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS2(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[1]
+        next.itemSizeY = itemSizeYArray[1]
+        next.itemSizeZ = itemSizeZArray[1]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS3(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[2]
+        next.itemSizeY = itemSizeYArray[2]
+        next.itemSizeZ = itemSizeZArray[2]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS4(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[3]
+        next.itemSizeY = itemSizeYArray[3]
+        next.itemSizeZ = itemSizeZArray[3]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS5(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[4]
+        next.itemSizeY = itemSizeYArray[4]
+        next.itemSizeZ = itemSizeZArray[4]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS6(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[5]
+        next.itemSizeY = itemSizeYArray[5]
+        next.itemSizeZ = itemSizeZArray[5]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS7(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[6]
+        next.itemSizeY = itemSizeYArray[6]
+        next.itemSizeZ = itemSizeZArray[6]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS8(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[7]
+        next.itemSizeY = itemSizeYArray[7]
+        next.itemSizeZ = itemSizeZArray[7]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS9(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[8]
+        next.itemSizeY = itemSizeYArray[8]
+        next.itemSizeZ = itemSizeZArray[8]
+        self.present(next, animated: true)
     }
     @IBAction func RButtonS10(_ sender: Any) {
+        let storyboard = self.storyboard!
+        let next = storyboard.instantiateViewController(withIdentifier: "RelocationArView") as! RelocationArViewController
+        next.itemSizeX = itemSizeXArray[9]
+        next.itemSizeY = itemSizeYArray[9]
+        next.itemSizeZ = itemSizeZArray[9]
+        self.present(next, animated: true)
     }
     //DetailButtonSetting
     @IBAction func DButtonS1(_ sender: Any) {

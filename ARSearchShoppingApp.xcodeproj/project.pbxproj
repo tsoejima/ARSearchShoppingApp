@@ -74,6 +74,19 @@
 		DFE63750257D09100025C544 /* Cabinet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6374D257D090F0025C544 /* Cabinet.jpg */; };
 		DFE63751257D09100025C544 /* Dressar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6374E257D090F0025C544 /* Dressar.jpg */; };
 		DFE63752257D09100025C544 /* StealR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6374F257D09100025C544 /* StealR.jpg */; };
+		DFE63757257E0B890025C544 /* RelocationArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE63756257E0B890025C544 /* RelocationArViewController.swift */; };
+		DFE63768257E5AB00025C544 /* item1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6375C257E5AB00025C544 /* item1.jpg */; };
+		DFE63769257E5AB00025C544 /* item2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6375D257E5AB00025C544 /* item2.jpg */; };
+		DFE6376A257E5AB00025C544 /* item3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6375E257E5AB00025C544 /* item3.jpg */; };
+		DFE6376B257E5AB00025C544 /* item6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE6375F257E5AB00025C544 /* item6.jpg */; };
+		DFE6376C257E5AB00025C544 /* item4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63760257E5AB00025C544 /* item4.jpg */; };
+		DFE6376D257E5AB00025C544 /* item5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63761257E5AB00025C544 /* item5.jpg */; };
+		DFE6376E257E5AB00025C544 /* itemr5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63762257E5AB00025C544 /* itemr5.jpg */; };
+		DFE6376F257E5AB00025C544 /* itemr4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63763257E5AB00025C544 /* itemr4.jpg */; };
+		DFE63770257E5AB00025C544 /* itemr6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63764257E5AB00025C544 /* itemr6.jpg */; };
+		DFE63771257E5AB00025C544 /* itemr3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63765257E5AB00025C544 /* itemr3.jpg */; };
+		DFE63772257E5AB00025C544 /* itemr2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63766257E5AB00025C544 /* itemr2.jpg */; };
+		DFE63773257E5AB00025C544 /* itemr1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE63767257E5AB00025C544 /* itemr1.jpg */; };
 		DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF33A02256546E400BC8404 /* SearchBtn.png */; };
 /* End PBXBuildFile section */
 
@@ -172,6 +185,19 @@
 		DFE6374D257D090F0025C544 /* Cabinet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cabinet.jpg; sourceTree = "<group>"; };
 		DFE6374E257D090F0025C544 /* Dressar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dressar.jpg; sourceTree = "<group>"; };
 		DFE6374F257D09100025C544 /* StealR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StealR.jpg; sourceTree = "<group>"; };
+		DFE63756257E0B890025C544 /* RelocationArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelocationArViewController.swift; sourceTree = "<group>"; };
+		DFE6375C257E5AB00025C544 /* item1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item1.jpg; sourceTree = "<group>"; };
+		DFE6375D257E5AB00025C544 /* item2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item2.jpg; sourceTree = "<group>"; };
+		DFE6375E257E5AB00025C544 /* item3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item3.jpg; sourceTree = "<group>"; };
+		DFE6375F257E5AB00025C544 /* item6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item6.jpg; sourceTree = "<group>"; };
+		DFE63760257E5AB00025C544 /* item4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item4.jpg; sourceTree = "<group>"; };
+		DFE63761257E5AB00025C544 /* item5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item5.jpg; sourceTree = "<group>"; };
+		DFE63762257E5AB00025C544 /* itemr5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itemr5.jpg; sourceTree = "<group>"; };
+		DFE63763257E5AB00025C544 /* itemr4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itemr4.jpg; sourceTree = "<group>"; };
+		DFE63764257E5AB00025C544 /* itemr6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itemr6.jpg; sourceTree = "<group>"; };
+		DFE63765257E5AB00025C544 /* itemr3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itemr3.jpg; sourceTree = "<group>"; };
+		DFE63766257E5AB00025C544 /* itemr2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itemr2.jpg; sourceTree = "<group>"; };
+		DFE63767257E5AB00025C544 /* itemr1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itemr1.jpg; sourceTree = "<group>"; };
 		DFF33A02256546E400BC8404 /* SearchBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchBtn.png; sourceTree = "<group>"; };
 		F1251BAB0BFDC3C0ABA26AAE /* Pods-ARSearchShoppingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp/Pods-ARSearchShoppingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F93D376299CF119778C8D5FF /* Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests/Pods-ARSearchShoppingApp-ARSearchShoppingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -305,6 +331,7 @@
 				DFAF89D0256AAF3B00D2F147 /* KadenChoiceViewController.swift */,
 				DFAF89F7256B7EAD00D2F147 /* SearchResultsViewController.swift */,
 				DFE63720257CE3F00025C544 /* InteriorChoiceViewController.swift */,
+				DFE63756257E0B890025C544 /* RelocationArViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,6 +339,7 @@
 		DF92A77C253DE7E1005DCCBB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				DFE6375B257E5AB00025C544 /* itemDummyImage */,
 				DFE63711257CD3C70025C544 /* CoffeMaker.jpg */,
 				DFE6370C257CCFBC0025C544 /* WinCellar.jpg */,
 				DFE6371B257CD4B50025C544 /* wineceller1.jpg */,
@@ -364,6 +392,25 @@
 				DFAF8A17256C11E500D2F147 /* ARAnimation.json */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		DFE6375B257E5AB00025C544 /* itemDummyImage */ = {
+			isa = PBXGroup;
+			children = (
+				DFE6375C257E5AB00025C544 /* item1.jpg */,
+				DFE6375D257E5AB00025C544 /* item2.jpg */,
+				DFE6375E257E5AB00025C544 /* item3.jpg */,
+				DFE6375F257E5AB00025C544 /* item6.jpg */,
+				DFE63760257E5AB00025C544 /* item4.jpg */,
+				DFE63761257E5AB00025C544 /* item5.jpg */,
+				DFE63762257E5AB00025C544 /* itemr5.jpg */,
+				DFE63763257E5AB00025C544 /* itemr4.jpg */,
+				DFE63764257E5AB00025C544 /* itemr6.jpg */,
+				DFE63765257E5AB00025C544 /* itemr3.jpg */,
+				DFE63766257E5AB00025C544 /* itemr2.jpg */,
+				DFE63767257E5AB00025C544 /* itemr1.jpg */,
+			);
+			path = itemDummyImage;
 			sourceTree = "<group>";
 		};
 		E656738CAF5F8A86F7B472B3 /* Pods */ = {
@@ -504,38 +551,50 @@
 				DFE6372B257CE7FB0025C544 /* KichinBoard.jpg in Resources */,
 				DFAF89F2256AC6C800D2F147 /* raice.jpg in Resources */,
 				DFE63742257CED3A0025C544 /* Bed.jpg in Resources */,
+				DFE6376E257E5AB00025C544 /* itemr5.jpg in Resources */,
+				DFE6376B257E5AB00025C544 /* item6.jpg in Resources */,
 				DFAF8A18256C11E500D2F147 /* ARAnimation.json in Resources */,
 				DFAF89E5256AC21E00D2F147 /* AirPurifier.jpg in Resources */,
+				DFE6376D257E5AB00025C544 /* item5.jpg in Resources */,
 				DF92A74B253DC392005DCCBB /* LaunchScreen.storyboard in Resources */,
 				DF92A748253DC392005DCCBB /* Assets.xcassets in Resources */,
+				DFE63769257E5AB00025C544 /* item2.jpg in Resources */,
 				DF0105AF2541B0D7003A8AD2 /* ARicon:Tab.png in Resources */,
 				DF92A746253DC392005DCCBB /* Main.storyboard in Resources */,
 				DFE63748257D08DC0025C544 /* LivingChest.jpg in Resources */,
 				DFF33A03256546E400BC8404 /* SearchBtn.png in Resources */,
+				DFE6376C257E5AB00025C544 /* item4.jpg in Resources */,
 				DF5E6B982547AD1800401495 /* 1000×1000.png in Resources */,
+				DFE63768257E5AB00025C544 /* item1.jpg in Resources */,
 				DF0105B92541B38E003A8AD2 /* Settingicon:Tab.png in Resources */,
 				DFE63712257CD3C70025C544 /* CoffeMaker.jpg in Resources */,
 				DFE63749257D08DC0025C544 /* Lack.jpg in Resources */,
 				DFE63732257CE8420025C544 /* LowTable.jpg in Resources */,
 				DFAF89DB256ABAE200D2F147 /* TVimage.jpg in Resources */,
+				DFE63771257E5AB00025C544 /* itemr3.jpg in Resources */,
 				DFAF89F3256AC6C800D2F147 /* MicroWave.jpg in Resources */,
 				DFE63752257D09100025C544 /* StealR.jpg in Resources */,
 				DFE63733257CE8420025C544 /* PCDesk.jpg in Resources */,
+				DFE63772257E5AB00025C544 /* itemr2.jpg in Resources */,
 				DF0105B82541B38E003A8AD2 /* Homeicon:Tab.png in Resources */,
 				DFE6371C257CD4B50025C544 /* wineceller1.jpg in Resources */,
 				DFAF8997256A2E3200D2F147 /* ARHomeBackgraund.jpg in Resources */,
 				DF01060C2541BD2F003A8AD2 /* TopiconNavigationBarTitle.png in Resources */,
 				DF92A77E253DE835005DCCBB /* Noimage-6.jpg in Resources */,
 				DFE63751257D09100025C544 /* Dressar.jpg in Resources */,
+				DFE6376A257E5AB00025C544 /* item3.jpg in Resources */,
 				DF0105B72541B38E003A8AD2 /* Staricon:Tab.png in Resources */,
 				DFE63734257CE8420025C544 /* RangeBoard.jpg in Resources */,
 				DFAF89CC256A691100D2F147 /* GoogleService-Info.plist in Resources */,
+				DFE6376F257E5AB00025C544 /* itemr4.jpg in Resources */,
 				DF0106162541CA8A003A8AD2 /* Topicon:n.png in Resources */,
 				DFE6373B257CECFA0025C544 /* SofaBed.jpg in Resources */,
 				DFAF89E0256ABC9100D2F147 /* TVbackimage.jpeg in Resources */,
 				DFAF89A6256A3DA500D2F147 /* interiorimage.jpg in Resources */,
 				DF55D68025761C2B006A94FA /* TapAnimation.json in Resources */,
 				DFE63741257CED3A0025C544 /* LowBed.jpg in Resources */,
+				DFE63773257E5AB00025C544 /* itemr1.jpg in Resources */,
+				DFE63770257E5AB00025C544 /* itemr6.jpg in Resources */,
 				DFAF89F1256AC6C800D2F147 /* refrigerator.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -676,6 +735,7 @@
 				DF92A778253DCB09005DCCBB /* HomeViewController.swift in Sources */,
 				DF92A79D253FC0FF005DCCBB /* NavigationViewController.swift in Sources */,
 				DF92A795253FBE79005DCCBB /* setTabBarViewController.swift in Sources */,
+				DFE63757257E0B890025C544 /* RelocationArViewController.swift in Sources */,
 				DFAF89D1256AAF3B00D2F147 /* KadenChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
