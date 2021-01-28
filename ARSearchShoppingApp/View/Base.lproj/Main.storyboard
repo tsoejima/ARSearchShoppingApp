@@ -3678,7 +3678,7 @@
                                                         <rect key="frame" x="390" y="0.0" width="390" height="191.33333333333334"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cAT-TX-jyC">
-                                                                <rect key="frame" x="29.333333333333314" y="19" width="331.33333333333331" height="153"/>
+                                                                <rect key="frame" x="29.333333333333314" y="37" width="331.33333333333331" height="153"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOY-84-zLO">
@@ -3697,7 +3697,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xmr-8D-TsO">
-                                                                <rect key="frame" x="39" y="31" width="149" height="141"/>
+                                                                <rect key="frame" x="39" y="31" width="149" height="159"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="149" id="HNS-hw-Z9g"/>
                                                                     <constraint firstAttribute="height" constant="159" id="aZv-cA-j88"/>
