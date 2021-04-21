@@ -1,0 +1,17 @@
+{
+  "name": "firestoreimportexport",
+  "version": "1.0.0",
+  "description": "supports csv import and export for firestore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Orange",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.12.0",
+    "firebase-admin": "^9.1.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {}
+}

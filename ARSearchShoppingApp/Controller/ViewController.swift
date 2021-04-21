@@ -59,26 +59,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
     
     let material = SCNMaterial()
     
-    /*@IBOutlet weak var arSizeSliderBar: UISlider!*/
-    
-    /*@IBAction func arSizeSliderBarAction(_ sender: Any) {
-    }*/
-    
-    /*@IBAction func arDirectionChange(_ sender: Any) {
-        print("OKKK!")
-        if changePass == "Horizontal"{
-            changePass = "Vertical"
-            test = 0.2
-            arDataViewDirection.text = "高"
-        }else if changePass == "Vertical"{
-            changePass = "Height"
-            arDataViewDirection.text = "縦"
-        }else if changePass == "Height"{
-            BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.y), length: CGFloat(self.z), chamferRadius: 0)
-        }
-    }*/
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -189,7 +169,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
             loadingView.removeFromSuperview()
         }
     
-    @IBAction func SliderV(_ sender: UISlider) {
+    @IBAction func SliderX(_ sender: UISlider) {
         x = Float(sender.value)
         BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
         self.material.diffuse.contents = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 0.950)
@@ -197,35 +177,21 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
         ASVBLabel1.text = String(Int(Float(x * 1000))) + "mm"
     }
     
-    @IBAction func SliderH(_ sender: Any) {
-    }
-    
-    @IBAction func SliderHoriz(_ sender: UISlider) {
+    @IBAction func SliderY(_ sender: UISlider) {
         y = Float(sender.value)
         BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
         self.material.diffuse.contents = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 0.950)
         self.BoxNode.geometry?.materials = [self.material]
         ASVBLabel2.text = String(Int(Float(y * 1000))) + "mm"
     }
-    @IBAction func SliderHori(_ sender: Any) {
-    }
     
-    @IBAction func SliderHi(_ sender: UISlider) {
+    @IBAction func SliderZ(_ sender: UISlider) {
         z = Float(sender.value)
         BoxNode.geometry = SCNBox(width: CGFloat(self.x), height: CGFloat(self.z), length: CGFloat(self.y), chamferRadius: 0)
         self.material.diffuse.contents = UIColor(red: 0.901, green: 0.901, blue:0.901, alpha: 0.950)
         self.BoxNode.geometry?.materials = [self.material]
         ASVBLabel3.text = String(Int(Float(z * 1000))) + "mm"
     }
-    @IBAction func SliderVertical(_ sender: Any) {
-    }
-    
-    @IBAction func SliderHorizontal(_ sender: Any) {
-    }
-    
-    @IBAction func SliderHigh(_ sender: Any) {
-    }
-    
     @IBOutlet weak var arSizeSlider: UIView!
     
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
@@ -246,7 +212,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
                 
         //configuration.environmentTexturing = .automatic
         // People Occlusion が使える端末か判定
-        var message:String;
+        /*var message:String;
             if ARWorldTrackingConfiguration.supportsFrameSemantics(.personSegmentationWithDepth) {
             // People Occlusion を使用する
                 configuration.frameSemantics = .personSegmentationWithDepth
@@ -254,7 +220,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
             } else {
                 message = "occulusion使用不可"
                         }
-            print("\(message)")
+            print("\(message)")*/
 
             // Run the view's session
             sceneView.session.run(configuration)

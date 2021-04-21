@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Ac-Ne-Eqe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Ac-Ne-Eqe">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -1915,8 +1915,7 @@
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="agc-ec-dfe">
                                                         <rect key="frame" x="13" y="12.333333333333371" width="272.66666666666669" height="31"/>
                                                         <connections>
-                                                            <action selector="SliderV:" destination="BV1-FR-VrT" eventType="valueChanged" id="QEp-T6-DCi"/>
-                                                            <action selector="SliderVertical:" destination="BV1-FR-VrT" eventType="valueChanged" id="5oy-fO-cat"/>
+                                                            <action selector="SliderX:" destination="BV1-FR-VrT" eventType="valueChanged" id="QEp-T6-DCi"/>
                                                         </connections>
                                                     </slider>
                                                 </subviews>
@@ -1965,10 +1964,7 @@
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="gVx-Lf-2Rp">
                                                         <rect key="frame" x="13" y="12" width="273" height="31"/>
                                                         <connections>
-                                                            <action selector="SliderH:" destination="BV1-FR-VrT" eventType="valueChanged" id="W4N-wB-i8p"/>
-                                                            <action selector="SliderHori:" destination="BV1-FR-VrT" eventType="valueChanged" id="hwW-CL-TAX"/>
-                                                            <action selector="SliderHoriz:" destination="BV1-FR-VrT" eventType="valueChanged" id="AXh-3f-BL4"/>
-                                                            <action selector="SliderHorizontal:" destination="BV1-FR-VrT" eventType="valueChanged" id="E8Q-KU-TpP"/>
+                                                            <action selector="SliderY:" destination="BV1-FR-VrT" eventType="valueChanged" id="AXh-3f-BL4"/>
                                                         </connections>
                                                     </slider>
                                                 </subviews>
@@ -2017,8 +2013,7 @@
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="LAv-Wp-QaY">
                                                         <rect key="frame" x="13" y="12.333333333333371" width="273" height="31"/>
                                                         <connections>
-                                                            <action selector="SliderHi:" destination="BV1-FR-VrT" eventType="valueChanged" id="73F-JD-yV1"/>
-                                                            <action selector="SliderHigh:" destination="BV1-FR-VrT" eventType="valueChanged" id="qAP-HD-1Ic"/>
+                                                            <action selector="SliderZ:" destination="BV1-FR-VrT" eventType="valueChanged" id="73F-JD-yV1"/>
                                                         </connections>
                                                     </slider>
                                                 </subviews>
