@@ -672,8 +672,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tn6-CF-C3G">
                                 <rect key="frame" x="58.666666666666657" y="396.66666666666669" width="273" height="50.666666666666686"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARで検索" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRu-P0-UJn">
-                                        <rect key="frame" x="98.666666666666686" y="15" width="75.666666666666686" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search by AR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRu-P0-UJn">
+                                        <rect key="frame" x="82" y="15" width="108.66666666666669" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -733,8 +733,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZRy-Ym-kCl">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="126.66666666666667"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カテゴリーを選択" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czu-Ja-byR">
-                                        <rect key="frame" x="7.9999999999999858" y="89.666666666666671" width="242.66666666666663" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czu-Ja-byR">
+                                        <rect key="frame" x="8.0000000000000142" y="89.666666666666671" width="254.33333333333337" height="36"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -758,14 +758,14 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUx-FI-sgj">
                                                 <rect key="frame" x="0.0" y="185.99999999999997" width="351" height="80.000000000000028"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="家電" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlY-X9-3ud">
-                                                        <rect key="frame" x="7.9999999999999716" y="8" width="61" height="36"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Appliances" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlY-X9-3ud">
+                                                        <rect key="frame" x="7.9999999999999716" y="8" width="157" height="36"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="冷蔵庫、洗濯機などの大型家電から電子レンジなどの小さい家電まで検索できます。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR2-C9-JWr">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You can search for both large and small appliances." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR2-C9-JWr">
                                                         <rect key="frame" x="7.9999999999999716" y="52" width="335" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -820,7 +820,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfY-xX-a7B">
                                                 <rect key="frame" x="0.0" y="186.33333333333331" width="351" height="79.666666666666686"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ベット、ソファーなどの大型家具からテーブルや椅子なども検索できます" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6s-ph-OOJ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You can search for large furniture, tables, chairs, etc." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6s-ph-OOJ">
                                                         <rect key="frame" x="6.9999999999999716" y="50" width="335" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
@@ -830,8 +830,8 @@
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="インテリア・家具" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBo-DJ-pe5">
-                                                <rect key="frame" x="9.3333333333333428" y="196.33333333333331" width="243" height="36"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Furniture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBo-DJ-pe5">
+                                                <rect key="frame" x="9.3333333333333428" y="196.33333333333331" width="128" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <nil key="textColor"/>
@@ -924,8 +924,8 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mp6-QZ-3Nb">
                                                         <rect key="frame" x="0.0" y="0.0" width="390" height="81.333333333333329"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生活家電" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqZ-3U-0hb">
-                                                                <rect key="frame" x="20" y="19.666666666666671" width="141.33333333333334" height="42"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life Electric" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqZ-3U-0hb">
+                                                                <rect key="frame" x="20" y="19.666666666666671" width="183.33333333333334" height="42"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                 <nil key="textColor"/>
                                                                 <color key="highlightedColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -965,8 +965,8 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Washingmachine.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0Ku-Dg-Hvq">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　洗濯機" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zkh-Ug-QeG">
-                                                                                                <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Washing machine" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zkh-Ug-QeG">
+                                                                                                <rect key="frame" x="0.0" y="162.00000000000003" width="212" height="33"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
                                                                                             </textField>
@@ -1011,7 +1011,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TVbackimage.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="6xY-sc-Ujh">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　テレビ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4T-sT-6Oe">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　TV" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4T-sT-6Oe">
                                                                                                 <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -1057,7 +1057,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirPurifier.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ph6-pw-YN5">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　空気洗浄機" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NaU-gc-XIg">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Air cleaner" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NaU-gc-XIg">
                                                                                                 <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -1103,8 +1103,8 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heater.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mp7-Pf-Arz">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　ヒーター・ストーブ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C0e-71-3XC">
-                                                                                                <rect key="frame" x="0.0" y="162.00000000000003" width="212" height="33"/>
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Heater" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C0e-71-3XC">
+                                                                                                <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
                                                                                             </textField>
@@ -1197,8 +1197,8 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AUM-Vm-MqF">
                                                         <rect key="frame" x="0.0" y="0.0" width="390" height="81.333333333333329"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="キッチン家電" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="251-5C-mHs">
-                                                                <rect key="frame" x="20" y="19.666666666666686" width="212" height="42"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen Appliances" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="251-5C-mHs">
+                                                                <rect key="frame" x="20" y="19.666666666666686" width="305" height="42"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                 <nil key="textColor"/>
                                                                 <color key="highlightedColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1245,7 +1245,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="refrigerator.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OPs-3D-GiF">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　冷蔵庫" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P7E-PR-aUW">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Refrigerator" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P7E-PR-aUW">
                                                                                                 <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -1291,7 +1291,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MicroWave.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="t61-l4-0gd">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　電子レンジ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7r-IG-K3F">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Microwave" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7r-IG-K3F">
                                                                                                 <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -1337,7 +1337,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="raice.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yEb-3q-xKq">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　炊飯器" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nuf-rO-hq3">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Rice cooker" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nuf-rO-hq3">
                                                                                                 <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -1428,8 +1428,8 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lj2-4a-n7c">
                                                         <rect key="frame" x="0.0" y="0.0" width="390" height="81.333333333333329"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="その他家電" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilv-ai-7ZL">
-                                                                <rect key="frame" x="20" y="19.666666666666629" width="176.66666666666666" height="42"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilv-ai-7ZL">
+                                                                <rect key="frame" x="20.000000000000007" y="19.666666666666629" width="90.666666666666686" height="42"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                 <nil key="textColor"/>
                                                                 <color key="highlightedColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1476,7 +1476,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wineceller1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ssg-2A-l5s">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　ワインセラー" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gbl-Xy-dBk">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Wine cellar" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gbl-Xy-dBk">
                                                                                                 <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -1523,8 +1523,8 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CoffeMaker.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BDX-Iv-kkY">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　コーヒーメーカー" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1sC-eI-hli">
-                                                                                                <rect key="frame" x="0.0" y="162" width="212" height="33"/>
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Coffee Maker" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1sC-eI-hli">
+                                                                                                <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
                                                                                             </textField>
@@ -1570,7 +1570,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kashituki.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IQG-jf-V1J">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　加湿器" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ot9-i3-e7h">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Humidifier" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ot9-i3-e7h">
                                                                                                 <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -1707,10 +1707,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yH-mg-RNS">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="126.66666666666667"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="カテゴリーを選択" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jK-Cz-gkr">
-                                        <rect key="frame" x="8" y="90" width="242.66666666666663" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select a detailed category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jK-Cz-gkr">
+                                        <rect key="frame" x="8" y="90" width="355" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2340,7 +2340,7 @@
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbu-jU-9AJ">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
                                                                         <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocation"/>
                                                                         <connections>
                                                                             <action selector="RButtonS1:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="M2Q-uB-FbI"/>
                                                                         </connections>
@@ -2348,7 +2348,7 @@
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgj-n4-BJx">
                                                                         <rect key="frame" x="152.33333333333337" y="10" width="128.66666666666663" height="40.666666666666664"/>
                                                                         <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS1:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="zhm-s3-maA"/>
                                                                         </connections>
@@ -2453,14 +2453,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7v-PY-j4Z">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Rerocation"/>
                                                                         <connections>
                                                                             <action selector="RButtonS2:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="Rax-ix-Ksu"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyl-uR-3QP">
                                                                         <rect key="frame" x="152.33333333333337" y="10" width="128.66666666666663" height="40.666666666666664"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS2:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="73d-GR-8eD"/>
                                                                         </connections>
@@ -2565,14 +2565,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8I-hV-b4t">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocation"/>
                                                                         <connections>
                                                                             <action selector="RButtonS3:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="Xra-qp-XFh"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5q-Sg-ko4">
                                                                         <rect key="frame" x="152.33333333333337" y="10" width="128.66666666666663" height="40.666666666666664"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS3:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="fms-J6-B9n"/>
                                                                         </connections>
@@ -2677,14 +2677,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHk-U6-e2r">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocation"/>
                                                                         <connections>
                                                                             <action selector="RButtonS4:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="1kJ-xU-dQq"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svo-kQ-Ih0">
                                                                         <rect key="frame" x="152.33333333333326" y="10" width="128.66666666666663" height="40.666666666666664"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS4:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="Luf-Xd-SUn"/>
                                                                         </connections>
@@ -2789,14 +2789,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgo-HF-Nge">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocate"/>
                                                                         <connections>
                                                                             <action selector="RButtonS5:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="uXQ-YJ-KiG"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezV-A1-iv4">
                                                                         <rect key="frame" x="152.33333333333326" y="10" width="128.66666666666663" height="40.666666666666664"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS5:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="ca4-WG-UXI"/>
                                                                         </connections>
@@ -2901,14 +2901,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgH-Ge-7KD">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocate"/>
                                                                         <connections>
                                                                             <action selector="RButtonS6:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="9z3-Hq-cZV"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G5-fq-CHd">
                                                                         <rect key="frame" x="152.33333333333348" y="10" width="128.66666666666663" height="40.666666666666664"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS6:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="uau-C1-GFM"/>
                                                                         </connections>
@@ -3013,14 +3013,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T23-VL-THs">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocate"/>
                                                                         <connections>
                                                                             <action selector="RButtonS7:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="hlf-qV-Rgo"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQf-zv-Wdn">
                                                                         <rect key="frame" x="152.33333333333348" y="10" width="128.66666666666663" height="40.666666666666664"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS7:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="ubv-SB-O09"/>
                                                                         </connections>
@@ -3125,14 +3125,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2f-Go-fBD">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocate"/>
                                                                         <connections>
                                                                             <action selector="RButtonS8:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="ZQh-Ny-7Jk"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILH-1k-ZE8">
                                                                         <rect key="frame" x="152.33333333333348" y="10" width="128.66666666666663" height="40.666666666666664"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS8:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="QjH-Kf-7nL"/>
                                                                         </connections>
@@ -3237,14 +3237,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VK-Yo-Mke">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocate"/>
                                                                         <connections>
                                                                             <action selector="RButtonS9:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="cwb-JR-Cy2"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dj-gt-28o">
                                                                         <rect key="frame" x="152.33333333333348" y="10" width="128.66666666666663" height="40.666666666666664"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS9:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="8cW-vK-nRS"/>
                                                                         </connections>
@@ -3349,14 +3349,14 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpn-az-e58">
                                                                         <rect key="frame" x="5" y="10" width="128.66666666666666" height="40.666666666666664"/>
-                                                                        <state key="normal" title="配置する"/>
+                                                                        <state key="normal" title="Relocate"/>
                                                                         <connections>
                                                                             <action selector="RButtonS10:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="ZNe-fJ-qQs"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQe-jZ-Tyi">
                                                                         <rect key="frame" x="149" y="15" width="128.66666666666663" height="30"/>
-                                                                        <state key="normal" title="詳細を見る"/>
+                                                                        <state key="normal" title="Details"/>
                                                                         <connections>
                                                                             <action selector="DButtonS10:" destination="iNE-Lm-KfH" eventType="touchUpInside" id="zNJ-YJ-EQf"/>
                                                                         </connections>
@@ -4138,8 +4138,8 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zwH-vI-sHu">
                                                         <rect key="frame" x="0.0" y="0.0" width="390" height="81.333333333333329"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="テーブル/ボード" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRh-dx-RUF">
-                                                                <rect key="frame" x="20" y="19.666666666666671" width="257.66666666666669" height="42"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Table" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRh-dx-RUF">
+                                                                <rect key="frame" x="20" y="19.666666666666671" width="84.333333333333329" height="42"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                 <nil key="textColor"/>
                                                                 <color key="highlightedColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4179,8 +4179,8 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiningTable.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mZM-mw-bf9">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　ダイニングテーブル" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ocr-oi-N4H">
-                                                                                                <rect key="frame" x="0.0" y="162.00000000000003" width="212" height="33"/>
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Dining table" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ocr-oi-N4H">
+                                                                                                <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
                                                                                             </textField>
@@ -4225,7 +4225,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LowTable.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oKl-Wa-BIA">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　ローテーブル" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JyW-4D-Lam">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　LowTable" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JyW-4D-Lam">
                                                                                                 <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -4271,7 +4271,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PCDesk.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dbu-46-oSb">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　PCデスク" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3MG-NV-90D">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　PC Desk" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3MG-NV-90D">
                                                                                                 <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -4317,8 +4317,8 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KichinBoard.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ssh-ot-Edw">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　キッチンボード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IHj-us-dXA">
-                                                                                                <rect key="frame" x="0.0" y="162.00000000000003" width="212" height="33"/>
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Kitchen board" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IHj-us-dXA">
+                                                                                                <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
                                                                                             </textField>
@@ -4363,7 +4363,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RangeBoard.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kNP-Ig-T8v">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　レンジボード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hVo-ZU-Rjx">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Range Board" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hVo-ZU-Rjx">
                                                                                                 <rect key="frame" x="0.0" y="161.00000000000003" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -4460,8 +4460,8 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0O2-VL-oij">
                                                         <rect key="frame" x="0.0" y="0.0" width="390" height="81.333333333333329"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ベット/ソファー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEF-SD-vXe">
-                                                                <rect key="frame" x="20" y="19.666666666666686" width="257.66666666666669" height="42"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bed/Sofa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEF-SD-vXe">
+                                                                <rect key="frame" x="20" y="19.666666666666686" width="145" height="42"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                 <nil key="textColor"/>
                                                                 <color key="highlightedColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4508,7 +4508,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2eO-oD-pF2">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　ベット" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c16-uy-Nr3">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　Bed" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c16-uy-Nr3">
                                                                                                 <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -4554,7 +4554,7 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LowBed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XfQ-9R-2xJ">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　ローベット" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c0i-yW-Oty">
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　LowBed" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c0i-yW-Oty">
                                                                                                 <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
@@ -4646,8 +4646,8 @@
                                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SofaBed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Fec-Xp-zxD">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="195"/>
                                                                                             </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　ソファーベット" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5DQ-oG-CAn">
-                                                                                                <rect key="frame" x="0.0" y="162" width="212" height="33"/>
+                                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="　SofaBed" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5DQ-oG-CAn">
+                                                                                                <rect key="frame" x="0.0" y="161" width="212" height="34"/>
                                                                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                                                                 <textInputTraits key="textInputTraits"/>
                                                                                             </textField>
@@ -4740,8 +4740,8 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XSa-o5-G85">
                                                         <rect key="frame" x="0.0" y="0.0" width="390" height="81.333333333333329"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="収納家具" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b20-8s-tee">
-                                                                <rect key="frame" x="20" y="19.666666666666629" width="141.33333333333334" height="42"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Closet Furniture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b20-8s-tee">
+                                                                <rect key="frame" x="19.999999999999986" y="19.666666666666629" width="252.66666666666663" height="42"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                                                 <nil key="textColor"/>
                                                                 <color key="highlightedColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -5117,10 +5117,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrW-Oa-z2L">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="126.66666666666667"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="カテゴリーを選択" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nw6-R6-3pe">
-                                        <rect key="frame" x="8" y="90" width="242.66666666666663" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select a detailed category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nw6-R6-3pe">
+                                        <rect key="frame" x="8" y="90" width="355" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>

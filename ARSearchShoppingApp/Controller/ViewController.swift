@@ -145,7 +145,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UINavigationControlle
         //ドラッグのアクション
         /*sceneView.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(self.dragView(sender:))))*/
 
-        //大久保ばか
         
     }
     
